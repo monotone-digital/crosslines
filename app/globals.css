@@ -1,0 +1,216 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-paper: var(--paper);
+  --color-sand: var(--sand);
+  --color-gold: var(--gold);
+  --color-gold-deep: var(--gold-deep);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --font-sans: var(--font-geist-sans);
+  --font-serif: Georgia, 'Times New Roman', serif;
+}
+
+:root {
+  --background: #f7f4ed;
+  --foreground: #211f1b;
+  --paper: #fbfaf6;
+  --sand: #eee6d5;
+  --gold: #d0ae6a;
+  --gold-deep: #9a7738;
+  --ink: #211f1b;
+  --muted: #6f6a61;
+  --line: #dcd5c8;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+  border-color: var(--line);
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--background);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--ink);
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--gold-deep);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  width: 2rem;
+  height: 1px;
+  background: var(--gold);
+  content: '';
+}
+
+.form-label {
+  display: block;
+  color: var(--gold-deep);
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.woodgrain {
+  background:
+    linear-gradient(105deg, rgb(61 39 25 / 8%), transparent 32%, rgb(255 255 255 / 12%) 52%, rgb(61 39 25 / 9%)),
+    repeating-linear-gradient(4deg, #7a4d2f 0 5px, #815337 5px 8px, #6e432a 8px 11px, #8c5e3c 11px 15px);
+}
+
+.reveal-up {
+  animation: reveal-up 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.reveal-delay-1 {
+  animation-delay: 120ms;
+}
+
+.reveal-delay-2 {
+  animation-delay: 220ms;
+}
+
+.reveal-delay-3 {
+  animation-delay: 320ms;
+}
+
+.hero-image::after {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  background: var(--gold);
+  content: '';
+  animation: image-curtain 1.25s 180ms cubic-bezier(0.77, 0, 0.175, 1) both;
+  transform-origin: top;
+  pointer-events: none;
+}
+
+.hero-copy-panel {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+}
+
+.hero-content {
+  min-height: 0;
+  align-self: center;
+  padding-block: clamp(0.75rem, 2.4svh, 2rem);
+}
+
+.hero-title {
+  font-size: clamp(3rem, 8.2vh, 6.1rem);
+  font-size: clamp(3rem, 8.2svh, 6.1rem);
+}
+
+.page-hero-copy {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+}
+
+.page-hero-content {
+  min-height: 0;
+  align-self: center;
+  padding-block: clamp(0.75rem, 2.2svh, 2rem);
+}
+
+.page-hero-title {
+  font-size: clamp(2.75rem, 7.4vh, 5.6rem);
+  font-size: clamp(2.75rem, 7.4svh, 5.6rem);
+}
+
+@media (max-width: 639px) {
+  .hero-title {
+    font-size: clamp(2.4rem, 7vh, 3.45rem);
+    font-size: clamp(2.4rem, 7svh, 3.45rem);
+  }
+
+  .page-hero-title {
+    font-size: clamp(2.2rem, 6vh, 3.3rem);
+    font-size: clamp(2.2rem, 6svh, 3.3rem);
+  }
+}
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(42px);
+  transition:
+    opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.scroll-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes image-curtain {
+  0% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .scroll-reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
