@@ -9,7 +9,7 @@ import { WarrantyStrip } from '@/components/warranty-strip';
 export const metadata: Metadata = {
   title: 'uPVC Conservatories in Multan',
   description:
-    'Light-filled uPVC conservatories designed around orientation, shade and year-round use in South Punjab.',
+    'Light-filled uPVC conservatories designed around orientation, shade and year-round use in Pakistan.',
 };
 
 export default function ConservatoriesPage() {
@@ -117,7 +117,7 @@ export default function ConservatoriesPage() {
               half the year.
             </p>
             <a
-              href="https://wa.me/923457291119?text=Hello%20Umer%2C%20I%20would%20like%20to%20book%20a%20conservatory%20site%20survey."
+              href="https://wa.me/923457291119?text=Hello%20The%20Crosslines%2C%20I%20would%20like%20to%20book%20a%20conservatory%20site%20survey."
               target="_blank"
               rel="noreferrer"
               className="mt-9 inline-flex rounded-full bg-gold px-6 py-4 text-sm font-semibold text-ink"

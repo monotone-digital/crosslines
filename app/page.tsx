@@ -72,13 +72,10 @@ export default function Home() {
 
             <div className="hero-content">
               <p className="reveal-up mb-4 font-serif text-xl italic text-gold sm:mb-5 sm:text-2xl">
-                Windows that belong to the building.
+                Made and fitted by us.
               </p>
               <h1 className="hero-title reveal-up reveal-delay-1 max-w-4xl text-balance font-medium leading-[0.87] tracking-[-0.065em]">
-                We make them. We fit them.
-                <span className="mt-2 block text-white/46">
-                  We stay afterwards.
-                </span>
+                uPVC windows, doors and conservatories.
               </h1>
               <p className="reveal-up reveal-delay-2 mt-4 max-w-xl text-sm leading-6 text-white/66 sm:mt-6 sm:text-base sm:leading-7 lg:text-lg">
                 uPVC windows, doors and conservatories, manufactured and
@@ -155,19 +152,17 @@ export default function Home() {
 
       <section className="bg-paper px-5 py-24 sm:px-8 sm:py-32">
         <div className="mx-auto max-w-[1480px]">
-          <div className="grid gap-12 lg:grid-cols-[0.55fr_1.45fr]">
+          <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
             <div>
-              <p className="eyebrow">What we make</p>
-              <p className="mt-6 max-w-xs text-sm leading-6 text-muted">
-                Designed opening by opening, then made and fitted by our own
-                team.
-              </p>
+              <h2 className="text-balance text-[clamp(3rem,6vw,6.5rem)] font-medium leading-[0.92] tracking-[-0.06em] text-ink">
+                What we make
+              </h2>
             </div>
             <div>
-              <h2 className="max-w-5xl text-balance text-[clamp(2.5rem,5.4vw,6rem)] font-medium leading-[0.96] tracking-[-0.055em] text-ink">
+              <p className="max-w-2xl text-lg leading-8 text-muted sm:text-xl">
                 The best window is not a product off a shelf. It is the right
                 system for the room around it.
-              </h2>
+              </p>
             </div>
           </div>
 
@@ -217,9 +212,8 @@ export default function Home() {
       <section className="bg-ink px-5 py-24 text-white sm:px-8 sm:py-32">
         <Reveal className="mx-auto grid max-w-[1480px] gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
           <div className="lg:sticky lg:top-32">
-            <p className="eyebrow !text-gold">Three tiers of profile</p>
-            <h2 className="mt-8 max-w-xl text-balance text-[clamp(2.8rem,5vw,5.8rem)] font-medium leading-[0.92] tracking-[-0.055em]">
-              We will tell you which one you need.
+            <h2 className="max-w-xl text-balance text-[clamp(2.8rem,5vw,5.8rem)] font-medium leading-[0.92] tracking-[-0.055em]">
+              Three tiers of profile
             </h2>
             <p className="mt-7 max-w-md text-base leading-7 text-white/58">
               We carry several systems across three tiers, which means we have
@@ -229,7 +223,7 @@ export default function Home() {
               href="/systems"
               className="mt-8 inline-flex items-center gap-3 text-sm font-semibold text-gold"
             >
-              Compare the systems <ArrowRight className="size-4" />
+              Compare the profiles <ArrowRight className="size-4" />
             </Link>
           </div>
 
@@ -288,17 +282,19 @@ export default function Home() {
 
       <section className="bg-paper px-5 py-20 sm:px-8 sm:py-24">
         <Reveal className="mx-auto max-w-[1480px]">
-          <div className="grid gap-6 lg:grid-cols-[0.55fr_1.45fr] lg:items-end">
-            <p className="eyebrow">Built for South Punjab</p>
-            <h2 className="max-w-4xl text-balance text-[clamp(2.4rem,4.4vw,4.6rem)] font-medium leading-[0.95] tracking-[-0.05em]">
-              Heat, dust and sun decide how a window performs here.
+          <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
+            <h2 className="text-balance text-[clamp(3rem,6vw,6.5rem)] font-medium leading-[0.92] tracking-[-0.06em]">
+              Built for Pakistan
             </h2>
+            <p className="max-w-2xl text-lg leading-8 text-muted sm:text-xl">
+              Heat, dust and sun decide how a window performs here.
+            </p>
           </div>
           <div className="mt-12 grid overflow-hidden rounded-[1.5rem] border border-line bg-sand lg:grid-cols-[0.78fr_1.22fr]">
             <div className="relative min-h-64 overflow-hidden sm:min-h-80 lg:min-h-0">
               <img
                 src="/images/south-punjab-climate.webp"
-                alt="Fine dust crossing a black uPVC window in strong South Punjab sunlight"
+                alt="Fine dust crossing a black uPVC window in strong Pakistani sunlight"
                 width="2496"
                 height="1664"
                 loading="lazy"
@@ -307,7 +303,7 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" />
               <p className="absolute bottom-5 left-5 rounded-full border border-white/25 bg-black/15 px-4 py-2 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-white backdrop-blur-md sm:bottom-6 sm:left-6">
-                South Punjab · Summer conditions
+                Pakistan · Summer conditions
               </p>
             </div>
 
@@ -321,7 +317,7 @@ export default function Home() {
                 [
                   Wind,
                   'Dust',
-                  'Two seals is standard. Three holds a closed window tighter against the dust South Punjab lives with.',
+                  'Two seals is standard. Three holds a closed window tighter against the dust Pakistan lives with.',
                 ],
                 [
                   Ruler,
@@ -370,7 +366,7 @@ export default function Home() {
             <div className="mt-24">
               <p className="eyebrow">One accountable team</p>
               <h2 className="mt-7 text-balance text-[clamp(2.7rem,4.5vw,5rem)] font-medium leading-[0.94] tracking-[-0.055em]">
-                Fitted by us. Guaranteed by us.
+                Fitted and guaranteed by us
               </h2>
               <p className="mt-6 max-w-xl text-base leading-7 text-muted">
                 Across Punjab, we manufacture, deliver and install. One company
@@ -390,9 +386,8 @@ export default function Home() {
         <Reveal className="mx-auto max-w-[1480px]">
           <div className="flex flex-col justify-between gap-8 sm:flex-row sm:items-end">
             <div>
-              <p className="eyebrow">Recent work</p>
-              <h2 className="mt-7 text-[clamp(2.8rem,5vw,5.5rem)] font-medium leading-none tracking-[-0.055em]">
-                Projects in preparation.
+              <h2 className="text-[clamp(2.8rem,5vw,5.5rem)] font-medium leading-none tracking-[-0.055em]">
+                Recent work
               </h2>
             </div>
             <Link
@@ -434,7 +429,9 @@ export default function Home() {
       <section className="bg-sand px-5 py-24 sm:px-8 sm:py-32">
         <Reveal className="mx-auto grid max-w-[1480px] gap-14 lg:grid-cols-[0.7fr_1.3fr]">
           <div>
-            <p className="eyebrow">What clients say</p>
+            <h2 className="text-4xl font-medium tracking-[-0.045em] sm:text-5xl">
+              What clients say
+            </h2>
             <p className="mt-6 max-w-xs text-sm leading-6 text-muted">
               Verified client stories will appear here after names, cities and
               product details are approved.

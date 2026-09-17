@@ -15,7 +15,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About"
         number="07 / 08"
-        title="We make them—and fit them ourselves."
+        title="A uPVC manufacturer in Multan."
         summary="One material, one manufacturing team and one point of accountability from quotation to support."
         image="/images/workshop.webp"
         imageAlt="The Crosslines-style uPVC fabrication workshop in Multan"
@@ -49,7 +49,7 @@ export default function AboutPage() {
             <p className="eyebrow">The person who answers</p>
             <h2 className="mt-8 text-[clamp(3rem,5vw,5.8rem)] font-medium leading-[0.92] tracking-[-0.055em]">Meet Umer.</h2>
             <p className="mt-7 max-w-xl text-base leading-7 text-muted">Enquiries are answered by Umer, who owns the business. Not a sales team or call centre—the person responsible for the quote, specification and support.</p>
-            <a href="https://wa.me/923457291119?text=Hello%20Umer%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noreferrer" className="mt-9 inline-flex self-start rounded-full bg-gold px-6 py-4 text-sm font-semibold">Message Umer</a>
+            <a href="https://wa.me/923457291119?text=Hello%20The%20Crosslines%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noreferrer" className="mt-9 inline-flex self-start rounded-full bg-gold px-6 py-4 text-sm font-semibold">Send a message</a>
           </div>
         </Reveal>
       </section>

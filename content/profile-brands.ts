@@ -26,7 +26,7 @@ export const profileTiers: ProfileTier[] = [
     id: 'tier-1',
     number: '01',
     label: 'Tier 1',
-    title: 'Imported German & Turkish',
+    title: 'Royal Signature Series',
     summary:
       'International manufacturers with broad system portfolios and an established third-party certification footprint.',
     brands: [
@@ -70,7 +70,7 @@ export const profileTiers: ProfileTier[] = [
     id: 'tier-2',
     number: '02',
     label: 'Tier 2',
-    title: 'Imported Turkish',
+    title: 'Elite Comfort Series',
     summary:
       'Established Turkish manufacturers with published technical documentation and strong residential value.',
     brands: [
@@ -110,7 +110,7 @@ export const profileTiers: ProfileTier[] = [
     id: 'tier-3',
     number: '03',
     label: 'Tier 3',
-    title: 'Pakistani profiles',
+    title: 'Smart Series',
     summary:
       'Local supply keeps replacement parts accessible and gives rentals and cost-conscious builds a practical option.',
     brands: [

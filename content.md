@@ -40,8 +40,8 @@ Source inventory of all marketing and product copy currently live across the rep
 ### Default WhatsApp messages
 
 - General: `Hello The Crosslines, I would like to discuss a project.`
-- To Umer: `Hello Umer, I would like to discuss a Crosslines project.` / `Hello Umer, I would like to discuss a project.`
-- Conservatory survey: `Hello Umer, I would like to book a conservatory site survey.`
+- General enquiry: `Hello The Crosslines, I would like to discuss a Crosslines project.` / `Hello The Crosslines, I would like to discuss a project.`
+- Conservatory survey: `Hello The Crosslines, I would like to book a conservatory site survey.`
 
 ---
 
@@ -54,7 +54,7 @@ Source inventory of all marketing and product copy currently live across the rep
 | `/` | — | The Crosslines \| uPVC Windows & Doors in Multan | uPVC windows, doors and conservatories manufactured in Multan and installed across Punjab, with a ten-year profile warranty and lifetime support. |
 | `/windows` | 02 / 08 | uPVC Windows in Multan | Made-to-measure casement, sliding and fixed uPVC windows for homes and building projects across Punjab. |
 | `/doors` | 03 / 08 | uPVC Doors in Multan | Made-to-measure casement, sliding and lift-and-slide uPVC doors manufactured in Multan and installed across Punjab. |
-| `/conservatories` | 04 / 08 | uPVC Conservatories in Multan | Light-filled uPVC conservatories designed around orientation, shade and year-round use in South Punjab. |
+| `/conservatories` | 04 / 08 | uPVC Conservatories in Multan | Light-filled uPVC conservatories designed around orientation, shade and year-round use in Pakistan. |
 | `/systems` | 05 / 08 | uPVC Profiles & Systems in Multan | Compare five uPVC profile manufacturers across three tiers and learn what to look for in profile construction, seals, reinforcement and colour performance. |
 | `/projects` | 06 / 08 | Projects | A growing archive of residential, commercial and builder uPVC projects by The Crosslines across Punjab. |
 | `/about` | 07 / 08 | About | Meet the Multan manufacturer behind more than 2,000 uPVC window, door and conservatory projects. |
@@ -74,14 +74,14 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### Default CTA band
 
-- **Title:** Tell us about the opening. We will tell you what fits.
-- **Copy:** Send the details to Umer on WhatsApp and we will come back with a specification and a price.
-- **CTAs:** WhatsApp Umer · Request a quote
+- **Title:** Show us the space. We’ll guide you.
+- **Copy:** Send the details on WhatsApp and we will come back with a specification and a price.
+- **CTAs:** WhatsApp us · Request a quote
 
 ### Profile tier strip
 
 - **Eyebrow:** Profiles we offer
-- **Copy:** Five manufacturers across three clearly numbered tiers.
+- **Copy:** Five manufacturers across three carefully selected series.
 - **CTA:** Compare profiles → `/systems`
 
 ### Footer
@@ -95,8 +95,8 @@ Source inventory of all marketing and product copy currently live across the rep
 ### Hero
 
 - **Eyebrow:** Made in Multan · Installed across Punjab
-- **Italic lead:** Windows that belong to the building.
-- **H1:** We make them. We fit them. / We stay afterwards.
+- **Italic lead:** Made and fitted by us.
+- **H1:** uPVC windows, doors and conservatories.
 - **Supporting:** uPVC windows, doors and conservatories, manufactured and installed by one accountable team.
 - **CTAs:** Start on WhatsApp · Request a quote
 - **Footer strip:** uPVC · GLASS · INSTALLATION
@@ -113,9 +113,8 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### What we make
 
-- **Eyebrow:** What we make
-- **Aside:** Designed opening by opening, then made and fitted by our own team.
-- **H2:** The best window is not a product off a shelf. It is the right system for the room around it.
+- **H2:** What we make
+- **Copy:** The best window is not a product off a shelf. It is the right system for the room around it.
 
 | # | Title | Copy | Href |
 | --- | --- | --- | --- |
@@ -126,43 +125,41 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### Three tiers of profile
 
-- **Eyebrow:** Three tiers of profile
-- **H2:** We will tell you which one you need.
+- **H2:** Three tiers of profile
 - **Copy:** We carry several systems across three tiers, which means we have no reason to push you past what your project requires.
-- **CTA:** Compare the systems
+- **CTA:** Compare the profiles
 - **Image caption:** Three profile tiers. One honest recommendation.
 
 *(Tier titles/summaries/brands — see Profile tiers below.)*
 
-### Built for South Punjab
+### Built for Pakistan
 
-- **Eyebrow:** Built for South Punjab
-- **H2:** Heat, dust and sun decide how a window performs here.
-- **Badge:** South Punjab · Summer conditions
+- **H2:** Built for Pakistan
+- **Copy:** Heat, dust and sun decide how a window performs here.
+- **Badge:** Pakistan · Summer conditions
 
 | Topic | Copy |
 | --- | --- |
 | Heat | The frame’s thermal figure tells you how much it works against your air conditioning through summer. |
-| Dust | Two seals is standard. Three holds a closed window tighter against the dust South Punjab lives with. |
+| Dust | Two seals is standard. Three holds a closed window tighter against the dust Pakistan lives with. |
 | Sun | Profile grade and stabiliser chemistry decide whether a frame keeps its colour and shape. |
 
 ### One accountable team
 
 - **Eyebrow:** One accountable team
-- **H2:** Fitted by us. Guaranteed by us.
+- **H2:** Fitted and guaranteed by us
 - **Copy:** Across Punjab, we manufacture, deliver and install. One company is responsible for the frame, glass, hardware and fitting—and one company answers afterwards.
 - **Aside:** Across the rest of Pakistan, we manufacture and deliver. Installation is arranged at your end.
 
 ### Recent work (placeholders)
 
-- **Eyebrow:** Recent work
-- **H2:** Projects in preparation.
+- **H2:** Recent work
 - **CTA:** See the project archive
 - **Cards:** Project 01–03 — Photography and details awaiting client approval.
 
 ### Testimonials (placeholders)
 
-- **Eyebrow:** What clients say
+- **H2:** What clients say
 - **Copy:** Verified client stories will appear here after names, cities and product details are approved.
 - **Cards:** Testimonial 01–03 — Awaiting client approval
 
@@ -172,14 +169,13 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### Hero
 
-- **Title:** Made to measure. Never standard size.
+- **Title:** The wall opening decides the window.
 - **Summary:** Every type is available across all three profile tiers. The type decides how it opens. The tier decides how it ages.
 
 ### Four window types
 
-- **Eyebrow:** Four window types
-- **Aside:** One opening often uses more than one type. We work it out room by room.
-- **H2:** Start with how the room needs to work.
+- **H2:** Four window types
+- **Copy:** One opening often uses more than one type. We work it out room by room.
 
 | # | Type | Movement | Opening | Best for | Copy | Limited by |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -198,8 +194,8 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### Finishes
 
-- **Eyebrow:** Finishes
-- **H2:** White, woodgrain and black.
+- **H2:** Finishes
+- **Copy:** White, woodgrain and black.
 
 | Finish | Description |
 | --- | --- |
@@ -211,11 +207,10 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### The frame decides the rest
 
-- **Eyebrow:** The frame decides the rest
-- **H2:** The part you cannot change later.
-- **Copy:** Glass, hardware and seals all fit into the profile. Its grade, chambers, reinforcement and seals decide how the window performs long after fitting.
+- **H2:** The frame decides the rest
+- **Copy:** The part you cannot change later. Glass, hardware and seals all fit into the profile. Its grade, chambers, reinforcement and seals decide how the window performs long after fitting.
 - **Aside:** Most of that does not show in a showroom. It shows in year eight, in a frame that still closes tightly against dust and a colour that has not moved.
-- **CTA:** See the three tiers
+- **CTA:** See the three tiers of profile
 
 ---
 
@@ -228,8 +223,8 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### Door types
 
-- **Eyebrow:** Door types
-- **H2:** The right movement for the span.
+- **H2:** Door types
+- **Copy:** The right movement for the span. Three ways a door can open, each trading swing space, seal and sash weight differently. The width of the opening usually decides which one is sensible.
 
 | # | Type | Movement | Copy | Consider |
 | --- | --- | --- | --- | --- |
@@ -247,9 +242,8 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### Hardware matters
 
-- **Eyebrow:** Hardware matters
-- **H2:** Doors wear at the parts that move.
-- **Copy:** Frames rarely fail. Hinges drop, rollers flatten, handles work loose and multipoint locks stop lining up. That is why hardware must be specified to the weight of the leaf.
+- **H2:** Hardware matters
+- **Copy:** Doors wear at the parts that move. Hinges drop, rollers flatten, handles work loose and multipoint locks stop lining up. That is why hardware must be specified to the weight of the leaf.
 - **Parts listed:** Handles · Hinges · Rollers · Multipoint locks
 - **Aside:** Hardware is covered for twelve months. After that, we still source and fit replacement parts for anything we installed.
 
@@ -317,15 +311,14 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### Buyer’s guide
 
-- **Eyebrow:** Buyer’s guide
-- **Aside:** None of this is brand language. These are the things worth comparing in writing.
-- **H2:** What separates a good window from a cheap one.
+- **H2:** Buyer’s guide
+- **Copy:** What separates a good window from a cheap one is not brand language. These are the things worth comparing in writing.
 
 | # | Topic | Copy |
 | --- | --- | --- |
 | 01 | Profile class | EN 12608 grades profile wall thickness. Class A is thicker; Class B is lighter and less expensive to produce. |
 | 02 | Chambers | Hollow compartments trap air and slow heat and sound. Most quality systems run five or more. |
-| 03 | Seals | Two seals is standard. Three holds a closed sash measurably tighter against South Punjab dust. |
+| 03 | Seals | Two seals is standard. Three holds a closed sash measurably tighter against Pakistani dust. |
 | 04 | Frame heat transfer | Published as Uf in W/m²K. Lower is better. Do not confuse it with the whole-window Uw figure. |
 | 05 | Reinforcement | Large windows and doors need steel inside the profile to remain straight. It is invisible once assembled. |
 | 06 | UV and colour | Stabiliser chemistry and profile grade determine how the frame behaves under years of intense sun. |
@@ -342,8 +335,6 @@ Source inventory of all marketing and product copy currently live across the rep
 5. Is there a written colour guarantee, and how long?
 6. Who covers the installation if something fails?
 
-> We are happy to answer all six on anything we quote. Not every supplier will.
-
 ### Profile manufacturers intro
 
 - **Eyebrow:** Profile manufacturers
@@ -353,7 +344,7 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### How to read the tiers
 
-- **Eyebrow:** How to read the tiers
+- **H2:** How to read the tiers
 - **Label:** Crosslines selection guide
 - The tiers organise our profile range by origin, documentation, system breadth and local availability. They are not a universal performance score: the right answer still depends on the exact system and opening.
 - Exact series names are intentionally excluded here. Any numeric performance figure belongs to the specific system named in your written quote and will not be attributed to a manufacturer as a whole.
@@ -367,7 +358,7 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ## Profile tiers (`content/profile-brands.ts`)
 
-### Tier 1 — Imported German & Turkish
+### Tier 1 — Royal Signature Series
 
 **Summary:** International manufacturers with broad system portfolios and an established third-party certification footprint.
 
@@ -383,7 +374,7 @@ Source inventory of all marketing and product copy currently live across the rep
 - **Detail:** Founded in 1990, ASAŞ operates across 90 countries and six continents, with a 400,000 m² production facility and approximately 3,000 employees. Asaspen is its window-systems arm, and those systems carry the VERATEC brand.
 - **Facts:** Founded 1990 · 90 countries · ASAŞ · Asaspen · VERATEC
 
-### Tier 2 — Imported Turkish
+### Tier 2 — Elite Comfort Series
 
 **Summary:** Established Turkish manufacturers with published technical documentation and strong residential value.
 
@@ -399,7 +390,7 @@ Source inventory of all marketing and product copy currently live across the rep
 - **Detail:** Winer is an Eryap Group brand produced at its Gaziantep facilities. Its published certifications include ISO 9001, ISO 14001, TS 5358 EN 12608, CE, TSE and SKZ certification for laminate foils.
 - **Facts:** Eryap Group · Gaziantep · ISO · CE · TSE · SKZ
 
-### Tier 3 — Pakistani profiles
+### Tier 3 — Smart Series
 
 **Summary:** Local supply keeps replacement parts accessible and gives rentals and cost-conscious builds a practical option.
 
@@ -415,13 +406,13 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### Hero
 
-- **Title:** Two thousand projects. The archive is next.
+- **Title:** Two thousand projects in six years.
 - **Summary:** Homes, commercial buildings and builder contracts across Punjab—and supply projects across Pakistan.
 
 ### Selected work
 
 - **Eyebrow:** Selected work
-- **H2:** Real projects are being documented.
+- **H2:** Real projects.
 - **Aside:** Each published project will include its city, product, profile tier and year. No generic imagery will be presented as completed work.
 - **Filters (UI only):** All products · Windows · Doors · Conservatories · City filter pending
 - **Placeholders:** 9 unpublished project slots (`content/projects.ts`) — “Awaiting photography” / “Details to be approved”
@@ -440,7 +431,7 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### Hero
 
-- **Title:** We make them—and fit them ourselves.
+- **Title:** A uPVC manufacturer in Multan.
 - **Summary:** One material, one manufacturing team and one point of accountability from quotation to support.
 
 ### The Crosslines
@@ -457,7 +448,7 @@ Source inventory of all marketing and product copy currently live across the rep
 - **Eyebrow:** The person who answers
 - **H2:** Meet Umer.
 - **Copy:** Enquiries are answered by Umer, who owns the business. Not a sales team or call centre—the person responsible for the quote, specification and support.
-- **CTA:** Message Umer
+- **CTA:** Send a message
 - **Portrait:** Placeholder (“Portrait to be added”)
 
 ### Where we work
@@ -499,7 +490,7 @@ Source inventory of all marketing and product copy currently live across the rep
 | Project type | My home · Commercial · I am a builder |
 | Approximate openings | optional numeric |
 | Anything else we should know? | free text |
-| Success | Thank you. Umer will reply on WhatsApp as soon as possible. |
+| Success | Thank you. We’ll reply on WhatsApp as soon as possible. |
 | Privacy note | Your details are sent privately to thecrosslinesgroup@gmail.com. |
 
 ### Visit or call

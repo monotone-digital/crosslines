@@ -91,6 +91,40 @@ button {
     repeating-linear-gradient(4deg, #7a4d2f 0 5px, #815337 5px 8px, #6e432a 8px 11px, #8c5e3c 11px 15px);
 }
 
+.profile-marquee {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+}
+
+.profile-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: profile-marquee 28s linear infinite;
+  will-change: transform;
+}
+
+.profile-marquee-group {
+  display: flex;
+  flex-shrink: 0;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+.profile-marquee:hover .profile-marquee-track,
+.profile-marquee:focus-within .profile-marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes profile-marquee {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 .reveal-up {
   animation: reveal-up 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
@@ -207,6 +241,21 @@ button {
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+  }
+
+  .profile-marquee {
+    overflow-x: auto;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .profile-marquee-track {
+    animation: none;
+    transform: none;
+  }
+
+  .profile-marquee-group[aria-hidden="true"] {
+    display: none;
   }
 
   .scroll-reveal {

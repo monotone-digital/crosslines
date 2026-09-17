@@ -76,10 +76,14 @@ export default function DoorsPage() {
       <section className="bg-paper px-5 py-24 sm:px-8 sm:py-32">
         <Reveal className="mx-auto max-w-[1480px]">
           <div className="grid gap-10 lg:grid-cols-[0.65fr_1.35fr]">
-            <p className="eyebrow">Door types</p>
-            <h2 className="max-w-5xl text-balance text-[clamp(2.8rem,5.3vw,6rem)] font-medium leading-[0.94] tracking-[-0.055em]">
-              The right movement for the span.
+            <h2 className="max-w-lg text-balance text-[clamp(2.8rem,5.3vw,6rem)] font-medium leading-[0.94] tracking-[-0.055em]">
+              Door types
             </h2>
+            <p className="max-w-3xl self-end text-lg leading-8 text-muted sm:text-xl">
+              The right movement for the span. Three ways a door can open, each
+              trading swing space, seal and sash weight differently. The width
+              of the opening usually decides which one is sensible.
+            </p>
           </div>
           <div className="mt-16 grid gap-4 lg:grid-cols-12">
             {doorTypes.slice(0, 1).map((door) => {
@@ -106,18 +110,18 @@ export default function DoorsPage() {
                       <Icon className="size-5" strokeWidth={1.4} />
                     </span>
                   </div>
-                  <div className="absolute inset-x-5 bottom-5 rounded-2xl border border-white/20 bg-ink/62 p-6 backdrop-blur-md sm:inset-x-7 sm:bottom-7 sm:p-7">
-                    <p className="text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-gold">
+                  <div className="absolute inset-x-5 bottom-5 rounded-2xl border border-line bg-paper p-6 sm:inset-x-7 sm:bottom-7 sm:p-7">
+                    <p className="text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-muted">
                       {door.movement}
                     </p>
-                    <h3 className="mt-3 text-3xl font-medium tracking-[-0.04em] sm:text-4xl">
+                    <h3 className="mt-3 text-3xl font-medium tracking-[-0.04em] text-ink sm:text-4xl">
                       {door.title}
                     </h3>
-                    <p className="mt-4 text-sm leading-6 text-white/68">
+                    <p className="mt-4 text-sm leading-6 text-muted">
                       {door.copy}
                     </p>
-                    <p className="mt-5 border-t border-white/14 pt-4 text-xs leading-5 text-white/52">
-                      <strong className="font-semibold text-white">
+                    <p className="mt-5 border-t border-line pt-4 text-xs leading-5 text-muted">
+                      <strong className="font-semibold text-ink">
                         Consider:
                       </strong>{' '}
                       {door.limit}
@@ -220,15 +224,14 @@ export default function DoorsPage() {
         <Reveal className="mx-auto grid max-w-[1480px] gap-14 lg:grid-cols-[0.75fr_1.25fr]">
           <div>
             <ShieldCheck className="size-8 text-gold-deep" strokeWidth={1.4} />
-            <p className="eyebrow mt-10">Hardware matters</p>
           </div>
           <div>
             <h2 className="text-balance text-[clamp(2.8rem,5vw,5.6rem)] font-medium leading-[0.94] tracking-[-0.055em]">
-              Doors wear at the parts that move.
+              Hardware matters
             </h2>
             <p className="mt-7 max-w-2xl text-base leading-7 text-muted">
-              Frames rarely fail. Hinges drop, rollers flatten, handles work
-              loose and multipoint locks stop lining up. That is why hardware
+              Doors wear at the parts that move. Hinges drop, rollers flatten,
+              handles work loose and multipoint locks stop lining up. That is why hardware
               must be specified to the weight of the leaf.
             </p>
             <div className="mt-10 grid gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-4">

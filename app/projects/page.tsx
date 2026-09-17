@@ -17,7 +17,7 @@ export default function ProjectsPage() {
       <PageHero
         eyebrow="Projects"
         number="06 / 08"
-        title="Two thousand projects. The archive is next."
+        title="Two thousand projects in six years."
         summary="Homes, commercial buildings and builder contracts across Punjab—and supply projects across Pakistan."
         image="/images/hero-residence.webp"
         imageAlt="A contemporary home with extensive black uPVC windows and doors"
@@ -28,7 +28,7 @@ export default function ProjectsPage() {
           <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
             <div>
               <p className="eyebrow">Selected work</p>
-              <h2 className="mt-7 max-w-4xl text-balance text-[clamp(2.8rem,5.3vw,6rem)] font-medium leading-[0.94] tracking-[-0.055em]">Real projects are being documented.</h2>
+              <h2 className="mt-7 max-w-4xl text-balance text-[clamp(2.8rem,5.3vw,6rem)] font-medium leading-[0.94] tracking-[-0.055em]">Real projects.</h2>
             </div>
             <p className="max-w-sm text-sm leading-6 text-muted">Each published project will include its city, product, profile tier and year. No generic imagery will be presented as completed work.</p>
           </div>

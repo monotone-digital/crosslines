@@ -20,7 +20,7 @@ export default function WindowsPage() {
       <PageHero
         eyebrow="Windows"
         number="02 / 08"
-        title="Made to measure. Never standard size."
+        title="The wall opening decides the window."
         summary="Every type is available across all three profile tiers. The type decides how it opens. The tier decides how it ages."
         image="/images/windows-casement.webp"
         imageAlt="An open black uPVC casement window in a light interior"
@@ -29,16 +29,13 @@ export default function WindowsPage() {
       <section className="bg-paper px-5 py-20 sm:px-8 sm:py-24">
         <Reveal className="mx-auto max-w-[1480px]">
           <div className="grid gap-8 lg:grid-cols-[0.65fr_1.35fr]">
-            <div>
-              <p className="eyebrow">Four window types</p>
-              <p className="mt-5 max-w-xs text-sm leading-6 text-muted">
-                One opening often uses more than one type. We work it out room
-                by room.
-              </p>
-            </div>
-            <h2 className="max-w-4xl text-balance text-[clamp(2.5rem,4.2vw,4.8rem)] font-medium leading-[0.94] tracking-[-0.05em]">
-              Start with how the room needs to work.
+            <h2 className="max-w-lg text-balance text-[clamp(2.5rem,4.2vw,4.8rem)] font-medium leading-[0.94] tracking-[-0.05em]">
+              Four window types
             </h2>
+            <p className="max-w-2xl self-end text-lg leading-8 text-muted sm:text-xl">
+              One opening often uses more than one type. We work it out room
+              by room.
+            </p>
           </div>
           <WindowTypeExplorer />
         </Reveal>
@@ -96,10 +93,12 @@ export default function WindowsPage() {
       <section className="bg-paper px-5 py-24 sm:px-8 sm:py-32">
         <Reveal className="mx-auto max-w-[1480px]">
           <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:items-end">
-            <p className="eyebrow">Finishes</p>
             <h2 className="text-[clamp(2.8rem,5vw,5.6rem)] font-medium leading-none tracking-[-0.055em]">
-              White, woodgrain and black.
+              Finishes
             </h2>
+            <p className="text-[clamp(2.3rem,4.2vw,4.6rem)] font-medium leading-none tracking-[-0.05em] text-muted">
+              White, woodgrain and black.
+            </p>
           </div>
           <div className="mt-14 grid gap-4 md:grid-cols-3">
             {[
@@ -131,15 +130,14 @@ export default function WindowsPage() {
 
       <section className="bg-sand px-5 py-24 sm:px-8 sm:py-32">
         <Reveal className="mx-auto grid max-w-[1480px] gap-12 lg:grid-cols-[0.8fr_1.2fr]">
-          <p className="eyebrow">The frame decides the rest</p>
+          <h2 className="text-[clamp(2.8rem,5vw,5.6rem)] font-medium leading-[0.94] tracking-[-0.055em]">
+            The frame decides the rest
+          </h2>
           <div>
-            <h2 className="text-balance text-[clamp(2.8rem,5vw,5.6rem)] font-medium leading-[0.94] tracking-[-0.055em]">
-              The part you cannot change later.
-            </h2>
-            <p className="mt-7 max-w-2xl text-base leading-7 text-muted">
-              Glass, hardware and seals all fit into the profile. Its grade,
-              chambers, reinforcement and seals decide how the window performs
-              long after fitting.
+            <p className="max-w-2xl text-xl leading-8 text-muted">
+              The part you cannot change later. Glass, hardware and seals all
+              fit into the profile. Its grade, chambers, reinforcement and
+              seals decide how the window performs long after fitting.
             </p>
             <p className="mt-5 max-w-2xl text-sm leading-6 text-muted">
               Most of that does not show in a showroom. It shows in year eight,
@@ -150,7 +148,7 @@ export default function WindowsPage() {
               href="/systems"
               className="mt-8 inline-flex items-center gap-3 text-sm font-semibold text-gold-deep"
             >
-              See the three tiers <ArrowUpRight className="size-4" />
+              See the three tiers of profile <ArrowUpRight className="size-4" />
             </Link>
           </div>
         </Reveal>

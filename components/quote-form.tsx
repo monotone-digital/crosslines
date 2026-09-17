@@ -27,7 +27,7 @@ export function QuoteForm() {
       if (!response.ok) throw new Error(result.message || 'The enquiry could not be sent.');
 
       setStatus('success');
-      setMessage('Thank you. Umer will reply on WhatsApp as soon as possible.');
+      setMessage('Thank you. We’ll reply on WhatsApp as soon as possible.');
       form.reset();
       const tracking = window as typeof window & { gtag?: (...args: unknown[]) => void; fbq?: (...args: unknown[]) => void };
       tracking.gtag?.('event', 'generate_lead', { method: 'quote_form' });

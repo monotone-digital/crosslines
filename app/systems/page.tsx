@@ -35,7 +35,7 @@ const qualities = [
   [
     Shield,
     'Seals',
-    'Two seals is standard. Three holds a closed sash measurably tighter against South Punjab dust.',
+    'Two seals is standard. Three holds a closed sash measurably tighter against Pakistani dust.',
   ],
   [
     Thermometer,
@@ -69,16 +69,13 @@ export default function SystemsPage() {
       <section className="bg-paper px-5 py-24 sm:px-8 sm:py-32">
         <Reveal className="mx-auto max-w-[1480px]">
           <div className="grid gap-10 lg:grid-cols-[0.65fr_1.35fr]">
-            <div>
-              <p className="eyebrow">Buyer’s guide</p>
-              <p className="mt-6 max-w-xs text-sm leading-6 text-muted">
-                None of this is brand language. These are the things worth
-                comparing in writing.
-              </p>
-            </div>
-            <h2 className="max-w-5xl text-balance text-[clamp(2.8rem,5.3vw,6rem)] font-medium leading-[0.94] tracking-[-0.055em]">
-              What separates a good window from a cheap one.
+            <h2 className="max-w-lg text-balance text-[clamp(2.8rem,5.3vw,6rem)] font-medium leading-[0.94] tracking-[-0.055em]">
+              Buyer’s guide
             </h2>
+            <p className="max-w-3xl self-end text-lg leading-8 text-muted sm:text-xl">
+              What separates a good window from a cheap one is not brand
+              language. These are the things worth comparing in writing.
+            </p>
           </div>
           <div className="mt-16 grid border-l border-t border-line md:grid-cols-2 lg:grid-cols-3">
             {qualities.map(([Icon, title, copy], index) => {
@@ -136,10 +133,6 @@ export default function SystemsPage() {
                 </li>
               ))}
             </ol>
-            <p className="mt-8 text-sm text-white/55">
-              We are happy to answer all six on anything we quote. Not every
-              supplier will.
-            </p>
           </div>
         </Reveal>
       </section>
@@ -227,7 +220,9 @@ export default function SystemsPage() {
 
           <div className="mt-5 grid gap-8 rounded-[1.5rem] bg-ink p-7 text-white sm:p-10 lg:grid-cols-[0.55fr_1.45fr] lg:rounded-[2rem] lg:p-12">
             <div>
-              <p className="eyebrow !text-gold">How to read the tiers</p>
+              <h2 className="text-3xl font-medium tracking-[-0.035em] text-gold sm:text-4xl">
+                How to read the tiers
+              </h2>
               <p className="mt-5 text-sm text-white/45">
                 Crosslines selection guide
               </p>
