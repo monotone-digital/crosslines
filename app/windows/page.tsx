@@ -11,7 +11,7 @@ import { WindowTypeExplorer } from '@/components/window-type-explorer';
 export const metadata: Metadata = {
   title: 'uPVC Windows in Multan',
   description:
-    'Made-to-measure casement, sliding and fixed uPVC windows for homes and building projects across Punjab.',
+    'Made-to-measure uPVC windows with recommended 6–10–6 double glazing for homes and building projects across Punjab.',
 };
 
 export default function WindowsPage() {
@@ -58,33 +58,33 @@ export default function WindowsPage() {
           <div className="flex flex-col justify-center">
             <p className="eyebrow !text-gold">Glass</p>
             <h2 className="mt-8 text-balance text-[clamp(3rem,5.3vw,6rem)] font-medium leading-[0.93] tracking-[-0.055em]">
-              One pane, two or three.
+              6–10–6 for cooler, quieter rooms.
             </h2>
             <p className="mt-7 max-w-xl text-base leading-7 text-white/60">
-              The sealed cavity between panes slows heat because trapped air
-              conducts it poorly. In Multan, that earns its money on a summer
-              afternoon—and again on a main road, where the second pane cuts
-              noise.
+              Our recommended double-glazed unit uses two 6mm panes separated
+              by a sealed 10mm air gap. The cavity improves thermal insulation
+              by slowing heat transfer and reduces the passage of outside noise.
             </p>
             <div className="mt-10 grid gap-3 sm:grid-cols-3">
-              {[
-                ['10mm', 'Our standard'],
-                ['8mm', 'For smaller openings'],
-                ['12mm', 'For large spans or noise'],
-              ].map(([value, label]) => (
-                <div
-                  key={value}
-                  className="rounded-2xl border border-white/12 p-5"
-                >
-                  <p className="text-3xl font-medium text-gold">{value}</p>
-                  <p className="mt-2 text-xs text-white/48">{label}</p>
-                </div>
-              ))}
+              <div className="rounded-2xl border border-white/12 p-5">
+                <p className="text-3xl font-medium text-gold">6mm</p>
+                <p className="mt-2 text-xs text-white/48">Outer glass</p>
+              </div>
+              <div className="rounded-2xl border border-gold bg-gold p-5 text-ink">
+                <p className="text-3xl font-medium">10mm</p>
+                <p className="mt-2 text-xs text-ink/65">
+                  Recommended sealed air gap
+                </p>
+              </div>
+              <div className="rounded-2xl border border-white/12 p-5">
+                <p className="text-3xl font-medium text-gold">6mm</p>
+                <p className="mt-2 text-xs text-white/48">Inner glass</p>
+              </div>
             </div>
             <p className="mt-8 text-sm leading-6 text-white/52">
-              A bedroom on a main road and a store room off an internal
-              courtyard are not the same problem. We specify the glass per
-              opening.
+              8mm and 12mm spacers are also available, but 10mm is our primary
+              recommendation. Single and triple glazing remain available when
+              the opening or room calls for a different build.
             </p>
           </div>
         </Reveal>

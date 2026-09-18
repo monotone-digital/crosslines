@@ -34,7 +34,7 @@ export async function POST(request: Request) {
       return Response.json({ message: 'Email delivery is being configured. Please send your enquiry on WhatsApp for now.' }, { status: 503 });
     }
 
-    const to = process.env.QUOTE_TO_EMAIL || 'thecrosslinesgroup@gmail.com';
+    const to = process.env.QUOTE_TO_EMAIL || 'thecrosslinesgroup28@gmail.com';
     const from = process.env.QUOTE_FROM_EMAIL || 'The Crosslines Website <onboarding@resend.dev>';
     const rows = [
       ['Name', data.name], ['Phone / WhatsApp', data.phone], ['City', data.city], ['Product', data.productType],

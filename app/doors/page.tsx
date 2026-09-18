@@ -17,7 +17,7 @@ import { WarrantyStrip } from '@/components/warranty-strip';
 export const metadata: Metadata = {
   title: 'uPVC Doors in Multan',
   description:
-    'Made-to-measure casement, sliding and lift-and-slide uPVC doors manufactured in Multan and installed across Punjab.',
+    'Made-to-measure uPVC doors with recommended 6–10–6 double glazing, manufactured in Multan and installed across Punjab.',
 };
 
 const doorTypes = [
@@ -259,14 +259,16 @@ export default function DoorsPage() {
               The largest pane in the room deserves more thought.
             </h2>
             <p className="mt-7 max-w-2xl text-base leading-7 text-muted">
-              Single, double and triple glazing is available across all door
-              types. We use 10mm as standard, with 8mm and 12mm available where
-              the opening, exposure or noise level calls for it.
+              Double glazing is our main recommendation across every door type:
+              two 6mm panes separated by a sealed 10mm air gap. Single and
+              triple glazing remain available, with 8mm or 12mm spacers where
+              the opening calls for a different build.
             </p>
             <p className="mt-5 max-w-2xl text-sm leading-6 text-muted">
-              On a door, the case for heavier glazing is stronger: it is usually
-              the pane people stand closest to and the largest area of glass
-              facing outside.
+              The sealed cavity improves thermal insulation by slowing heat
+              transfer and helps reduce outside noise. On large glazed doors,
+              the frame, seals and hardware are specified together so the
+              complete unit performs as intended.
             </p>
           </div>
         </Reveal>

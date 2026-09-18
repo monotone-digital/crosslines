@@ -42,20 +42,20 @@ const services = [
   },
   {
     index: '03',
+    title: 'Glass',
+    href: '/windows#glass',
+    copy: 'Double glazing helps keep rooms cooler, quieter and more comfortable throughout the year.',
+    image: '/images/service-glass.webp',
+    imageAlt:
+      'Cutaway close-up of two glass panes and their sealed spacer inside a black uPVC frame',
+  },
+  {
+    index: '04',
     title: 'Conservatories',
     href: '/conservatories',
     copy: 'Light-filled garden rooms designed around orientation, shade and a Multan summer.',
     image: '/images/service-conservatories.webp',
     imageAlt: 'A black-framed uPVC conservatory attached to a warm ivory home',
-  },
-  {
-    index: '04',
-    title: 'Glass',
-    href: '/windows#glass',
-    copy: 'Single, double and triple glazing specified room by room—not from a price list.',
-    image: '/images/service-glass.webp',
-    imageAlt:
-      'Insulated glazing layers seated inside a substantial black uPVC profile',
   },
 ];
 
@@ -84,7 +84,7 @@ export default function Home() {
               <div className="reveal-up reveal-delay-3 mt-5 flex flex-nowrap gap-2 sm:mt-7 sm:gap-3">
                 <a
                   className="group inline-flex min-h-11 shrink-0 items-center gap-2 rounded-full bg-gold px-4 text-xs font-semibold text-ink transition-transform hover:-translate-y-0.5 sm:min-h-12 sm:gap-3 sm:px-6 sm:text-sm"
-                  href="https://wa.me/923457291119?text=Hello%20The%20Crosslines%2C%20I%20would%20like%20to%20discuss%20a%20project."
+                  href="https://wa.me/923008736655?text=Hello%20The%20Crosslines%2C%20I%20would%20like%20to%20discuss%20a%20project."
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -294,7 +294,7 @@ export default function Home() {
             <div className="relative min-h-64 overflow-hidden sm:min-h-80 lg:min-h-0">
               <img
                 src="/images/south-punjab-climate.webp"
-                alt="Fine dust crossing a black uPVC window in strong Pakistani sunlight"
+                alt="A black double-glazed uPVC window separating a sunlit Pakistani cityscape from a calm interior"
                 width="2496"
                 height="1664"
                 loading="lazy"
@@ -312,7 +312,7 @@ export default function Home() {
                 [
                   SunMedium,
                   'Heat',
-                  'The frame’s thermal figure tells you how much it works against your air conditioning through summer.',
+                  'The frame and sealed 6–10–6 double-glazed unit work together to slow heat transfer and reduce the load on air conditioning.',
                 ],
                 [
                   Wind,

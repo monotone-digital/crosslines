@@ -16,7 +16,7 @@ export function CtaBand({
           <p className="max-w-md text-base leading-7 text-white/60">{copy}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="https://wa.me/923457291119?text=Hello%20The%20Crosslines%2C%20I%20would%20like%20to%20discuss%20a%20Crosslines%20project."
+              href="https://wa.me/923008736655?text=Hello%20The%20Crosslines%2C%20I%20would%20like%20to%20discuss%20a%20Crosslines%20project."
               target="_blank"
               rel="noreferrer"
               className="group inline-flex min-h-12 items-center gap-3 rounded-full bg-gold px-6 text-sm font-semibold text-ink"

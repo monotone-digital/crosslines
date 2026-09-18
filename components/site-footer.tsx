@@ -69,16 +69,16 @@ export function SiteFooter() {
               Start a conversation
             </p>
             <a
-              href="tel:+923457291119"
+              href="tel:+923008736655"
               className="mt-5 block text-xl font-medium tracking-tight"
             >
-              +92 345 7291119
+              0300 873 6655
             </a>
             <a
-              href="mailto:thecrosslinesgroup@gmail.com"
+              href="mailto:thecrosslinesgroup28@gmail.com"
               className="mt-2 block break-all text-sm text-muted hover:text-ink"
             >
-              thecrosslinesgroup@gmail.com
+              thecrosslinesgroup28@gmail.com
             </a>
             <div className="mt-6 flex gap-2">
               <a

@@ -56,7 +56,7 @@ export function SiteHeader() {
             Contact
           </Link>
           <a
-            href="https://wa.me/923457291119?text=Hello%20The%20Crosslines%2C%20I%20would%20like%20to%20discuss%20a%20project."
+            href="https://wa.me/923008736655?text=Hello%20The%20Crosslines%2C%20I%20would%20like%20to%20discuss%20a%20project."
             target="_blank"
             rel="noreferrer"
             className="rounded-full bg-ink px-5 py-3 text-xs font-semibold text-white transition-transform hover:-translate-y-0.5"
@@ -97,7 +97,7 @@ export function SiteHeader() {
                 Contact
               </Link>
               <a
-                href="https://wa.me/923457291119?text=Hello%20The%20Crosslines%2C%20I%20would%20like%20to%20discuss%20a%20project."
+                href="https://wa.me/923008736655?text=Hello%20The%20Crosslines%2C%20I%20would%20like%20to%20discuss%20a%20project."
                 target="_blank"
                 rel="noreferrer"
                 className="mt-5 rounded-full bg-gold px-6 py-4 text-center text-sm font-semibold text-ink"

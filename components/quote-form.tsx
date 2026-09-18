@@ -58,7 +58,7 @@ export function QuoteForm() {
           {status === 'idle' || status === 'error' ? <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" /> : null}
         </button>
         <p className={`max-w-md text-sm leading-6 ${status === 'error' ? 'text-red-700' : 'text-muted'}`} aria-live="polite">
-          {message || 'Your details are sent privately to thecrosslinesgroup@gmail.com.'}
+          {message || 'Your details are sent privately to thecrosslinesgroup28@gmail.com.'}
         </p>
       </div>
     </form>

@@ -28,9 +28,9 @@ Source inventory of all marketing and product copy currently live across the rep
 
 | Channel | Value |
 | --- | --- |
-| Phone / WhatsApp | +92 345 7291119 |
-| WhatsApp deep link | https://wa.me/923457291119 |
-| Email | thecrosslinesgroup@gmail.com |
+| Phone / WhatsApp | 0300 873 6655 |
+| WhatsApp deep link | https://wa.me/923008736655 |
+| Email | thecrosslinesgroup28@gmail.com |
 | Instagram | https://www.instagram.com/thecrosslinesfactory/ (`@thecrosslinesfactory`) |
 | TikTok | https://www.tiktok.com/@the.crosslines |
 | Address | Head Office, Gujjar Chowk, Qadirpur Ran Bypass, Multan |
@@ -121,7 +121,7 @@ Source inventory of all marketing and product copy currently live across the rep
 | 01 | Windows | Casement, sliding and fixed systems, made to the exact size of every opening. | `/windows` |
 | 02 | Doors | Casement, sliding and lift & slide doors engineered around their span and weight. | `/doors` |
 | 03 | Conservatories | Light-filled garden rooms designed around orientation, shade and a Multan summer. | `/conservatories` |
-| 04 | Glass | Single, double and triple glazing specified room by room—not from a price list. | `/windows#glass` |
+| 04 | Glass | Double glazing helps keep rooms cooler, quieter and more comfortable throughout the year. | `/windows#glass` |
 
 ### Three tiers of profile
 
@@ -140,7 +140,7 @@ Source inventory of all marketing and product copy currently live across the rep
 
 | Topic | Copy |
 | --- | --- |
-| Heat | The frame’s thermal figure tells you how much it works against your air conditioning through summer. |
+| Heat | The frame and sealed 6–10–6 double-glazed unit work together to slow heat transfer and reduce the load on air conditioning. |
 | Dust | Two seals is standard. Three holds a closed window tighter against the dust Pakistan lives with. |
 | Sun | Profile grade and stabiliser chemistry decide whether a frame keeps its colour and shape. |
 
@@ -187,10 +187,10 @@ Source inventory of all marketing and product copy currently live across the rep
 ### Glass (`#glass`)
 
 - **Eyebrow:** Glass
-- **H2:** One pane, two or three.
-- **Copy:** The sealed cavity between panes slows heat because trapped air conducts it poorly. In Multan, that earns its money on a summer afternoon—and again on a main road, where the second pane cuts noise.
-- **Thicknesses:** 10mm — Our standard · 8mm — For smaller openings · 12mm — For large spans or noise
-- **Aside:** A bedroom on a main road and a store room off an internal courtyard are not the same problem. We specify the glass per opening.
+- **H2:** 6–10–6 for cooler, quieter rooms.
+- **Copy:** Our recommended double-glazed unit uses two 6mm panes separated by a sealed 10mm air gap. The cavity improves thermal insulation by slowing heat transfer and reduces the passage of outside noise.
+- **Construction:** 6mm outer glass · 10mm recommended sealed air gap · 6mm inner glass
+- **Aside:** 8mm and 12mm spacers are also available, but 10mm is our primary recommendation. Single and triple glazing remain available when the opening or room calls for a different build.
 
 ### Finishes
 
@@ -251,8 +251,8 @@ Source inventory of all marketing and product copy currently live across the rep
 
 - **Eyebrow:** Glass for doors
 - **H2:** The largest pane in the room deserves more thought.
-- **Copy:** Single, double and triple glazing is available across all door types. We use 10mm as standard, with 8mm and 12mm available where the opening, exposure or noise level calls for it.
-- **Aside:** On a door, the case for heavier glazing is stronger: it is usually the pane people stand closest to and the largest area of glass facing outside.
+- **Copy:** Double glazing is our main recommendation across every door type: two 6mm panes separated by a sealed 10mm air gap. Single and triple glazing remain available, with 8mm or 12mm spacers where the opening calls for a different build.
+- **Aside:** The sealed cavity improves thermal insulation by slowing heat transfer and helps reduce outside noise. On large glazed doors, the frame, seals and hardware are specified together so the complete unit performs as intended.
 
 ### Page CTA
 
@@ -285,7 +285,7 @@ Source inventory of all marketing and product copy currently live across the rep
 | --- | --- | --- |
 | 01 | Direction | Where the room faces changes the light it receives and the heat it holds. |
 | 02 | Shade | Roof, overhang and surrounding walls determine whether the room remains usable in June. |
-| 03 | Glass | The glazing is settled at survey because orientation and use change the answer. |
+| 03 | Glass | Our recommended 6–10–6 double glazing is the starting point; orientation and use decide whether another spacer or glazing build is better. |
 | 04 | Span | The frame stays as slim as the opening safely allows, preserving the reason for building it. |
 
 ### The first step
@@ -431,24 +431,32 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### Hero
 
-- **Title:** A uPVC manufacturer in Multan.
-- **Summary:** One material, one manufacturing team and one point of accountability from quotation to support.
+- **Title:** A focused manufacturer, built at scale.
+- **Summary:** From a 66,000 sq ft facility in Multan dedicated entirely to uPVC, we manufacture windows, doors and conservatories for projects across Punjab and Pakistan.
 
 ### The Crosslines
 
 - **Eyebrow:** The Crosslines
-- **H2:** A deliberate focus on uPVC.
-- The Crosslines has been manufacturing in Multan for six years. In that time we have completed more than 2,000 projects for homeowners, builders and architects.
-- Working in one material means we know the profiles we carry, can match the tier to the building and are willing to say when the less expensive option is the right one.
-- Across Punjab, we install what we manufacture. One company is accountable for the frame, glass, hardware and fitting.
-- If something we installed needs attention years later, we remain the people who come and look at it.
+- **H2:** Built around one material.
+- The Crosslines has spent six years manufacturing in Multan and completed more than 2,000 projects for homeowners, builders and architects.
+- Our focus on uPVC means we understand the profiles we carry, can match the system to the building and will say when the less expensive option is the right one.
+- Across Punjab, we install what we manufacture. One company remains accountable for the frame, glass, hardware and fitting—from quotation to aftercare.
 
-### Meet Umer
+### The facility
 
-- **Eyebrow:** The person who answers
-- **H2:** Meet Umer.
-- **Copy:** Enquiries are answered by Umer, who owns the business. Not a sales team or call centre—the person responsible for the quote, specification and support.
-- **CTA:** Send a message
+- **Eyebrow:** The facility
+- **H2:** 66,000 square feet. One purpose.
+- **Copy:** Our Multan facility is dedicated entirely to uPVC manufacturing. Its scale, specialist equipment and focused setup bring fabrication, glazing and final assembly into one operation built to compete with Pakistan's leading specialist facilities.
+- **Facts:** 66,000 square feet · 100% uPVC focus · Multan, South Punjab · Supply across Pakistan
+- **Image caption:** Dedicated entirely to uPVC manufacturing.
+
+### Meet Mr. Umer Sultan
+
+- **Eyebrow:** Leadership
+- **H2:** Meet Mr. Umer Sultan.
+- **Role:** Director, The Crosslines Group
+- **Copy:** Mr. Umer Sultan leads The Crosslines Group and oversees its direction, standards and long-term commitments.
+- **CTA:** Speak to our sales team
 - **Portrait:** Placeholder (“Portrait to be added”)
 
 ### Where we work
@@ -491,7 +499,7 @@ Source inventory of all marketing and product copy currently live across the rep
 | Approximate openings | optional numeric |
 | Anything else we should know? | free text |
 | Success | Thank you. We’ll reply on WhatsApp as soon as possible. |
-| Privacy note | Your details are sent privately to thecrosslinesgroup@gmail.com. |
+| Privacy note | Your details are sent privately to thecrosslinesgroup28@gmail.com. |
 
 ### Visit or call
 
