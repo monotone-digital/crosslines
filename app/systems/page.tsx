@@ -40,7 +40,7 @@ const qualities = [
   [
     Thermometer,
     'Frame heat transfer',
-    'Published as Uf in W/m²K. Lower is better. Do not confuse it with the whole-window Uw figure.',
+    'Published as Uf in W/m²K. Lower is better. Do not confuse it with the whole-window Uw figure. ',
   ],
   [
     Weight,
