@@ -17,6 +17,7 @@ export type ProfileTier = {
   number: string;
   label: string;
   title: string;
+  tagline: string;
   summary: string;
   brands: ProfileBrand[];
 };
@@ -27,6 +28,7 @@ export const profileTiers: ProfileTier[] = [
     number: '01',
     label: 'Tier 1',
     title: 'Royal Signature Series',
+    tagline: 'The Pinnacle of Architectural Elegance',
     summary:
       'International manufacturers with broad system portfolios and an established third-party certification footprint.',
     brands: [
@@ -71,6 +73,7 @@ export const profileTiers: ProfileTier[] = [
     number: '02',
     label: 'Tier 2',
     title: 'Elite Comfort Series',
+    tagline: 'Refined Performance for Modern Living',
     summary:
       'Established Turkish manufacturers with published technical documentation and strong residential value.',
     brands: [
@@ -111,6 +114,7 @@ export const profileTiers: ProfileTier[] = [
     number: '03',
     label: 'Tier 3',
     title: 'Smart Series',
+    tagline: 'Smart Solutions. Reliable Performance.',
     summary:
       'Local supply keeps replacement parts accessible and gives rentals and cost-conscious builds a practical option.',
     brands: [

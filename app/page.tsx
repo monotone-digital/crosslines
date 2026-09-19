@@ -3,8 +3,11 @@ import {
   ArrowDownRight,
   ArrowRight,
   ArrowUpRight,
+  BadgeCheck,
+  DraftingCompass,
   Factory,
   Ruler,
+  ScanLine,
   SunMedium,
   Wind,
 } from 'lucide-react';
@@ -16,7 +19,7 @@ import { profileTiers } from '@/content/profile-brands';
 
 const proof = [
   ['6 years', 'Manufacturing and installing'],
-  ['2,000+', 'Projects completed'],
+  ['500+', 'Projects completed'],
   ['10 years', 'Warranty on the profile'],
   ['Lifetime', 'Customer support'],
 ];
@@ -56,6 +59,33 @@ const services = [
     copy: 'Light-filled garden rooms designed around orientation, shade and a Multan summer.',
     image: '/images/service-conservatories.webp',
     imageAlt: 'A black-framed uPVC conservatory attached to a warm ivory home',
+  },
+];
+
+const whyCrosslines = [
+  {
+    index: '01',
+    icon: Factory,
+    title: 'Dedicated manufacturing',
+    copy: 'A 66,000 sq. ft. facility focused entirely on uPVC production, supported by premium imported fabrication machinery.',
+  },
+  {
+    index: '02',
+    icon: BadgeCheck,
+    title: 'Genuine, verified profiles',
+    copy: 'Carefully selected profile systems from established sources, with a clear and verifiable manufacturing origin.',
+  },
+  {
+    index: '03',
+    icon: ScanLine,
+    title: 'Machine-processed glazing',
+    copy: 'Double-glazed units processed using dedicated machinery, with argon filling where specified and supplier quality checks throughout.',
+  },
+  {
+    index: '04',
+    icon: DraftingCompass,
+    title: 'Engineered for each opening',
+    copy: 'Reinforcement, hardware and glazing selected around the window’s dimensions, configuration and overall load.',
   },
 ];
 
@@ -242,6 +272,9 @@ export default function Home() {
                 <h3 className="mt-8 text-2xl font-medium tracking-tight sm:text-3xl">
                   {tier.title}
                 </h3>
+                <p className="mt-2 font-serif text-base italic text-gold/90 sm:text-lg">
+                  {tier.tagline}
+                </p>
                 <p className="mt-4 max-w-2xl text-sm leading-6 text-white/54">
                   {tier.summary}
                 </p>
@@ -350,36 +383,95 @@ export default function Home() {
         </Reveal>
       </section>
 
-      <section className="bg-paper px-5 pb-24 sm:px-8 sm:pb-32">
-        <Reveal className="mx-auto grid max-w-[1480px] overflow-hidden rounded-[1.5rem] bg-sand lg:grid-cols-2 lg:rounded-[2rem]">
-          <div className="relative min-h-[28rem] overflow-hidden">
-            <img
-              src="/images/workshop.webp"
-              alt="Technicians assembling a uPVC window frame in a workshop"
-              width="2496"
-              height="1664"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-          </div>
-          <div className="flex flex-col justify-between p-7 sm:p-12 lg:p-16">
-            <Factory className="size-8 text-gold-deep" strokeWidth={1.4} />
-            <div className="mt-24">
-              <p className="eyebrow">One accountable team</p>
-              <h2 className="mt-7 text-balance text-[clamp(2.7rem,4.5vw,5rem)] font-medium leading-[0.94] tracking-[-0.055em]">
-                Fitted and guaranteed by us
-              </h2>
-              <p className="mt-6 max-w-xl text-base leading-7 text-muted">
-                Across Punjab, we manufacture, deliver and install. One company
-                is responsible for the frame, glass, hardware and fitting—and
-                one company answers afterwards.
-              </p>
-              <p className="mt-4 max-w-xl text-sm leading-6 text-muted">
-                Across the rest of Pakistan, we manufacture and deliver.
-                Installation is arranged at your end.
+      <section
+        id="why-crosslines"
+        className="scroll-mt-28 bg-paper px-3 pb-5 sm:px-5 sm:pb-8"
+      >
+        <div className="relative mx-auto max-w-[1560px] overflow-hidden rounded-[1.5rem] bg-ink text-white lg:rounded-[2rem]">
+          <div
+            className="pointer-events-none absolute inset-0 opacity-[0.055]"
+            aria-hidden="true"
+            style={{
+              backgroundImage:
+                'linear-gradient(rgba(255,255,255,0.16) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.16) 1px, transparent 1px)',
+              backgroundSize: '5rem 5rem',
+            }}
+          />
+          <div
+            className="pointer-events-none absolute -left-40 top-1/3 size-[32rem] rounded-full bg-gold/10 blur-[120px]"
+            aria-hidden="true"
+          />
+
+          <div className="relative grid lg:grid-cols-[0.78fr_1.22fr]">
+            <div className="flex flex-col justify-between border-b border-white/10 p-7 sm:p-10 lg:min-h-[35rem] lg:border-b-0 lg:border-r lg:p-14 xl:p-16">
+              <div>
+                <p className="flex items-center gap-3 text-[0.68rem] font-semibold uppercase tracking-[0.2em] text-white/45">
+                  <span className="h-px w-8 bg-gold" />
+                  Built differently, from the inside out
+                </p>
+                <h2 className="mt-8 max-w-xl text-balance text-[clamp(3.4rem,5.8vw,6.7rem)] font-medium leading-[0.86] tracking-[-0.068em]">
+                  Why The Crosslines?
+                </h2>
+                <p className="mt-6 font-serif text-2xl italic text-gold sm:text-3xl">
+                  Because what’s inside matters.
+                </p>
+              </div>
+
+              <p className="mt-12 max-w-lg text-base leading-7 text-white/58 sm:text-lg sm:leading-8 lg:mt-16">
+                A window can look identical from the outside while the
+                materials and engineering inside are completely different. We
+                make those decisions visible, verifiable and built for the
+                long term.
               </p>
             </div>
+
+            <div className="grid sm:grid-cols-2">
+              {whyCrosslines.map((reason, index) => {
+                const IconComponent = reason.icon;
+                return (
+                  <article
+                    key={reason.index}
+                    className={`group relative flex min-h-[15rem] flex-col justify-between p-7 transition-colors duration-500 hover:bg-white/[0.045] sm:min-h-[17.5rem] sm:p-9 xl:p-10 ${
+                      index > 0 ? 'border-t border-white/10 sm:border-t-0' : ''
+                    } ${index % 2 ? 'sm:border-l sm:border-white/10' : ''} ${
+                      index > 1 ? 'sm:border-t sm:border-white/10' : ''
+                    }`}
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-semibold tracking-[0.16em] text-gold">
+                        {reason.index}
+                      </span>
+                      <span
+                        className="why-icon relative flex size-12 items-center justify-center rounded-full border border-gold/30 bg-gold/[0.06] text-gold transition duration-500 group-hover:-translate-y-1 group-hover:rotate-3 group-hover:border-gold group-hover:bg-gold group-hover:text-ink"
+                        style={{ animationDelay: `${index * 420}ms` }}
+                        aria-hidden="true"
+                      >
+                        <span className="why-icon-ring absolute inset-[-0.32rem] rounded-full border border-gold/15" />
+                        <IconComponent className="size-5" strokeWidth={1.4} />
+                      </span>
+                    </div>
+                    <div className="mt-10">
+                      <h3 className="max-w-sm text-2xl font-medium leading-tight tracking-[-0.035em] transition-colors duration-300 group-hover:text-gold sm:text-[1.7rem]">
+                        {reason.title}
+                      </h3>
+                      <span className="mt-4 block h-px w-8 bg-gold/60 transition-all duration-500 group-hover:w-16 group-hover:bg-gold" />
+                      <p className="mt-4 max-w-md text-sm leading-6 text-white/52">
+                        {reason.copy}
+                      </p>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
           </div>
-        </Reveal>
+
+          <div className="relative border-t border-white/10 px-7 py-8 sm:px-10 lg:px-14 xl:px-16">
+            <p className="mx-auto max-w-6xl text-balance text-center font-serif text-xl italic leading-snug text-gold sm:text-2xl lg:text-[1.7rem]">
+              We don’t engineer for the lowest quote—we engineer for long-term
+              performance, reliability and everyday use.
+            </p>
+          </div>
+        </div>
       </section>
 
       <section className="border-t border-line bg-paper px-5 py-24 sm:px-8 sm:py-32">
@@ -422,6 +514,38 @@ export default function Home() {
                 </div>
               </article>
             ))}
+          </div>
+        </Reveal>
+      </section>
+
+      <section className="bg-paper px-5 pb-24 sm:px-8 sm:pb-32">
+        <Reveal className="mx-auto grid max-w-[1480px] overflow-hidden rounded-[1.5rem] bg-sand lg:grid-cols-2 lg:rounded-[2rem]">
+          <div className="relative min-h-[28rem] overflow-hidden">
+            <img
+              src="/images/workshop.webp"
+              alt="Technicians assembling a uPVC window frame in a workshop"
+              width="2496"
+              height="1664"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col justify-between p-7 sm:p-12 lg:p-16">
+            <Factory className="size-8 text-gold-deep" strokeWidth={1.4} />
+            <div className="mt-24">
+              <p className="eyebrow">One accountable team</p>
+              <h2 className="mt-7 text-balance text-[clamp(2.7rem,4.5vw,5rem)] font-medium leading-[0.94] tracking-[-0.055em]">
+                Fitted and guaranteed by us
+              </h2>
+              <p className="mt-6 max-w-xl text-base leading-7 text-muted">
+                Across Punjab, we manufacture, deliver and install. One company
+                is responsible for the frame, glass, hardware and fitting—and
+                one company answers afterwards.
+              </p>
+              <p className="mt-4 max-w-xl text-sm leading-6 text-muted">
+                Across the rest of Pakistan, we manufacture and deliver.
+                Installation is arranged at your end.
+              </p>
+            </div>
           </div>
         </Reveal>
       </section>

@@ -13,7 +13,7 @@ Source inventory of all marketing and product copy currently live across the rep
 | Claim | Copy |
 | --- | --- |
 | Experience | 6 years manufacturing and installing |
-| Volume | 2,000+ projects completed |
+| Volume | 500+ projects completed |
 | Profile warranty | 10 years on the profile |
 | Hardware warranty | 12 months on hardware |
 | Support | Lifetime customer support |
@@ -57,7 +57,7 @@ Source inventory of all marketing and product copy currently live across the rep
 | `/conservatories` | 04 / 08 | uPVC Conservatories in Multan | Light-filled uPVC conservatories designed around orientation, shade and year-round use in Pakistan. |
 | `/systems` | 05 / 08 | uPVC Profiles & Systems in Multan | Compare five uPVC profile manufacturers across three tiers and learn what to look for in profile construction, seals, reinforcement and colour performance. |
 | `/projects` | 06 / 08 | Projects | A growing archive of residential, commercial and builder uPVC projects by The Crosslines across Punjab. |
-| `/about` | 07 / 08 | About | Meet the Multan manufacturer behind more than 2,000 uPVC window, door and conservatory projects. |
+| `/about` | 07 / 08 | About | Meet the Multan manufacturer behind more than 500 uPVC window, door and conservatory projects. |
 | `/contact` | 08 / 08 | Contact & Request a Quote | Request a quote for uPVC windows, doors or conservatories from The Crosslines in Multan. |
 
 **OG / Twitter:** Made in Multan. Installed across Punjab. Supported for life.  
@@ -107,7 +107,7 @@ Source inventory of all marketing and product copy currently live across the rep
 | Value | Label |
 | --- | --- |
 | 6 years | Manufacturing and installing |
-| 2,000+ | Projects completed |
+| 500+ | Projects completed |
 | 10 years | Warranty on the profile |
 | Lifetime | Customer support |
 
@@ -438,7 +438,7 @@ Source inventory of all marketing and product copy currently live across the rep
 
 - **Eyebrow:** The Crosslines
 - **H2:** Built around one material.
-- The Crosslines has spent six years manufacturing in Multan and completed more than 2,000 projects for homeowners, builders and architects.
+- The Crosslines has spent six years manufacturing in Multan and completed more than 500 projects for homeowners, builders and architects.
 - Our focus on uPVC means we understand the profiles we carry, can match the system to the building and will say when the less expensive option is the right one.
 - Across Punjab, we install what we manufacture. One company remains accountable for the frame, glass, hardware and fitting—from quotation to aftercare.
 

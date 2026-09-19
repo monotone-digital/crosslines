@@ -209,6 +209,36 @@ button {
   transform: translateY(0);
 }
 
+.why-icon {
+  animation: why-icon-glow 4.8s ease-in-out infinite;
+}
+
+.why-icon-ring {
+  animation: why-icon-ring 4.8s ease-in-out infinite;
+}
+
+@keyframes why-icon-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 rgb(208 174 106 / 0%);
+  }
+  50% {
+    box-shadow: 0 0 2rem rgb(208 174 106 / 16%);
+  }
+}
+
+@keyframes why-icon-ring {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.08);
+  }
+}
+
 @keyframes reveal-up {
   from {
     opacity: 0;

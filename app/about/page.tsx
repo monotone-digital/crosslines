@@ -6,7 +6,7 @@ import { Reveal } from '@/components/reveal';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Meet the Multan manufacturer behind more than 2,000 projects and a 66,000 sq ft facility dedicated to uPVC.',
+  description: 'Meet the Multan manufacturer behind more than 500 projects and a 66,000 sq ft facility dedicated to uPVC.',
 };
 
 export default function AboutPage() {
@@ -27,7 +27,7 @@ export default function AboutPage() {
           <div>
             <h2 className="max-w-5xl text-balance text-[clamp(2.8rem,5.3vw,6rem)] font-medium leading-[0.94] tracking-[-0.055em]">Built around one material.</h2>
             <div className="mt-10 grid gap-8 text-base leading-7 text-muted md:grid-cols-3">
-              <p>The Crosslines has spent six years manufacturing in Multan and completed more than 2,000 projects for homeowners, builders and architects.</p>
+              <p>The Crosslines has spent six years manufacturing in Multan and completed more than 500 projects for homeowners, builders and architects.</p>
               <p>Our focus on uPVC means we understand the profiles we carry, can match the system to the building and will say when the less expensive option is the right one.</p>
               <p>Across Punjab, we install what we manufacture. One company remains accountable for the frame, glass, hardware and fitting—from quotation to aftercare.</p>
             </div>

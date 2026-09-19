@@ -86,9 +86,10 @@ export function SiteFooter() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="The Crosslines on Instagram"
-                className="flex size-10 items-center justify-center rounded-full border border-line hover:bg-sand"
+                className="flex h-10 items-center gap-2 rounded-full border border-line px-4 text-xs font-semibold hover:bg-sand"
               >
                 <AtSign className="size-4" />
+                Instagram <ArrowUpRight className="size-3" />
               </a>
               <a
                 href="https://www.tiktok.com/@the.crosslines"
