@@ -2,21 +2,46 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowUpRight, Check } from 'lucide-react';
 import { CtaBand } from '@/components/cta-band';
+import { JsonLd } from '@/components/json-ld';
 import { PageHero } from '@/components/page-hero';
 import { ProfileTierStrip } from '@/components/profile-tier-strip';
 import { Reveal } from '@/components/reveal';
 import { WarrantyStrip } from '@/components/warranty-strip';
 import { WindowTypeExplorer } from '@/components/window-type-explorer';
+import { createMetadata, createPageJsonLd } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'uPVC Windows in Multan',
-  description:
-    'Made-to-measure uPVC windows with recommended 6–10–6 double glazing for homes and building projects across Punjab.',
-};
+const pageTitle = 'uPVC Windows in Multan';
+const pageDescription =
+  'Made-to-measure uPVC windows and double glazing for homes and building projects in Multan, Lahore, Bahawalpur, Faisalabad and across Punjab.';
+
+export const metadata: Metadata = createMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: '/windows',
+  image: {
+    url: '/images/windows-casement.webp',
+    width: 2304,
+    height: 1728,
+    alt: 'Black uPVC casement windows by The Crosslines',
+  },
+});
 
 export default function WindowsPage() {
   return (
     <main>
+      <JsonLd
+        data={createPageJsonLd({
+          name: pageTitle,
+          description: pageDescription,
+          path: '/windows',
+          image: '/images/windows-casement.webp',
+          service: {
+            name: 'uPVC Window Manufacturing and Installation',
+            serviceType: 'Made-to-measure uPVC windows and double glazing',
+            description: pageDescription,
+          },
+        })}
+      />
       <PageHero
         eyebrow="Windows"
         number="02 / 08"

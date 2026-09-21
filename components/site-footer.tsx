@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ArrowUpRight, AtSign } from 'lucide-react';
+import { CookieSettingsButton } from '@/components/analytics';
 
 const productLinks = [
   ['Windows', '/windows'],
@@ -82,6 +83,15 @@ export function SiteFooter() {
             </a>
             <div className="mt-6 flex gap-2">
               <a
+                href="https://www.facebook.com/p/The-Crosslines-61570975897869/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="The Crosslines on Facebook"
+                className="flex h-10 items-center gap-2 rounded-full border border-line px-4 text-xs font-semibold hover:bg-sand"
+              >
+                Facebook <ArrowUpRight className="size-3" />
+              </a>
+              <a
                 href="https://www.instagram.com/thecrosslinesfactory/"
                 target="_blank"
                 rel="noreferrer"
@@ -95,6 +105,7 @@ export function SiteFooter() {
                 href="https://www.tiktok.com/@the.crosslines"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="The Crosslines on TikTok"
                 className="flex h-10 items-center gap-2 rounded-full border border-line px-4 text-xs font-semibold hover:bg-sand"
               >
                 TikTok <ArrowUpRight className="size-3" />
@@ -103,10 +114,15 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-20 flex flex-col justify-between gap-4 border-t border-line pt-6 text-xs text-muted sm:flex-row">
+        <div className="mt-20 flex flex-col justify-between gap-4 border-t border-line pt-6 text-xs text-muted lg:flex-row">
           <p>
             © {new Date().getFullYear()} The Crosslines. All rights reserved.
           </p>
+          <nav aria-label="Legal" className="flex flex-wrap gap-x-5 gap-y-2">
+            <Link href="/privacy" className="hover:text-ink">Privacy</Link>
+            <Link href="/cookies" className="hover:text-ink">Cookies</Link>
+            <CookieSettingsButton />
+          </nav>
           <p>Head Office, Gujjar Chowk, Qadirpur Ran Bypass, Multan</p>
         </div>
       </div>

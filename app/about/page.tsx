@@ -1,17 +1,39 @@
 import type { Metadata } from 'next';
 import { Factory, MapPin, ShieldCheck, UserRound } from 'lucide-react';
 import { CtaBand } from '@/components/cta-band';
+import { JsonLd } from '@/components/json-ld';
 import { PageHero } from '@/components/page-hero';
 import { Reveal } from '@/components/reveal';
+import { createMetadata, createPageJsonLd } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'About',
-  description: 'Meet the Multan manufacturer behind more than 500 projects and a 66,000 sq ft facility dedicated to uPVC.',
-};
+const pageTitle = 'About Our uPVC Factory in Multan';
+const pageDescription =
+  'Meet The Crosslines, the Multan manufacturer behind more than 100 projects and a 66,000 sq ft facility dedicated to uPVC.';
+
+export const metadata: Metadata = createMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: '/about',
+  image: {
+    url: '/images/workshop.webp',
+    width: 1872,
+    height: 1248,
+    alt: 'The Crosslines uPVC manufacturing facility in Multan',
+  },
+});
 
 export default function AboutPage() {
   return (
     <main>
+      <JsonLd
+        data={createPageJsonLd({
+          name: pageTitle,
+          description: pageDescription,
+          path: '/about',
+          type: 'AboutPage',
+          image: '/images/workshop.webp',
+        })}
+      />
       <PageHero
         eyebrow="About"
         number="07 / 08"
@@ -27,7 +49,7 @@ export default function AboutPage() {
           <div>
             <h2 className="max-w-5xl text-balance text-[clamp(2.8rem,5.3vw,6rem)] font-medium leading-[0.94] tracking-[-0.055em]">Built around one material.</h2>
             <div className="mt-10 grid gap-8 text-base leading-7 text-muted md:grid-cols-3">
-              <p>The Crosslines has spent six years manufacturing in Multan and completed more than 500 projects for homeowners, builders and architects.</p>
+              <p>Established in 2019, The Crosslines has spent six years manufacturing in Multan and completed more than 100 projects for homeowners, builders and architects.</p>
               <p>Our focus on uPVC means we understand the profiles we carry, can match the system to the building and will say when the less expensive option is the right one.</p>
               <p>Across Punjab, we install what we manufacture. One company remains accountable for the frame, glass, hardware and fitting—from quotation to aftercare.</p>
             </div>
@@ -117,8 +139,8 @@ export default function AboutPage() {
         <Reveal className="mx-auto max-w-[1480px]">
           <div className="grid gap-10 lg:grid-cols-[0.65fr_1.35fr]"><p className="eyebrow">Where we work</p><h2 className="text-[clamp(2.8rem,5vw,5.6rem)] font-medium leading-[0.94] tracking-[-0.055em]">Local installation. National supply.</h2></div>
           <div className="mt-16 grid gap-4 lg:grid-cols-2">
-            <article className="rounded-2xl bg-ink p-7 text-white sm:p-10"><MapPin className="size-7 text-gold" /><h3 className="mt-20 text-3xl font-medium">Punjab</h3><p className="mt-4 text-sm leading-6 text-white/55">We manufacture, deliver and install. Ten-year profile warranty, twelve months on hardware and lifetime support.</p></article>
-            <article className="rounded-2xl border border-line p-7 sm:p-10"><Factory className="size-7 text-gold-deep" /><h3 className="mt-20 text-3xl font-medium">Rest of Pakistan</h3><p className="mt-4 text-sm leading-6 text-muted">We manufacture and deliver. The profile warranty, hardware cover and customer support remain in place.</p></article>
+            <article className="rounded-2xl bg-ink p-7 text-white sm:p-10"><MapPin className="size-7 text-gold" /><h3 className="mt-20 text-3xl font-medium">Punjab</h3><p className="mt-4 text-sm leading-6 text-white/55">We manufacture, deliver and install across Multan, Lahore, Bahawalpur, DG Khan, Faisalabad and the rest of Punjab. Ten-year profile warranty, twelve months on hardware and lifetime support.</p></article>
+            <article className="rounded-2xl border border-line p-7 sm:p-10"><Factory className="size-7 text-gold-deep" /><h3 className="mt-20 text-3xl font-medium">Rest of Pakistan</h3><p className="mt-4 text-sm leading-6 text-muted">We manufacture and deliver to Islamabad and elsewhere in Pakistan. The profile warranty, hardware cover and customer support remain in place.</p></article>
           </div>
           <div className="mt-4 flex items-center gap-3 rounded-2xl border border-line p-5 text-sm text-muted"><ShieldCheck className="size-5 text-gold-deep" /> Ten years on profiles · Twelve months on hardware · Lifetime customer support</div>
         </Reveal>

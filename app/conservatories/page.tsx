@@ -1,20 +1,45 @@
 import type { Metadata } from 'next';
 import { Compass, Ruler, SunMedium, ThermometerSun } from 'lucide-react';
 import { CtaBand } from '@/components/cta-band';
+import { JsonLd } from '@/components/json-ld';
 import { PageHero } from '@/components/page-hero';
 import { ProfileTierStrip } from '@/components/profile-tier-strip';
 import { Reveal } from '@/components/reveal';
 import { WarrantyStrip } from '@/components/warranty-strip';
+import { createMetadata, createPageJsonLd } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'uPVC Conservatories in Multan',
-  description:
-    'Light-filled uPVC conservatories with recommended 6–10–6 double glazing, designed for year-round use in Pakistan.',
-};
+const pageTitle = 'uPVC Conservatories in Multan';
+const pageDescription =
+  'Made-to-measure uPVC conservatories and garden rooms designed around orientation, shade and year-round use in Pakistan.';
+
+export const metadata: Metadata = createMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: '/conservatories',
+  image: {
+    url: '/images/conservatory.webp',
+    width: 2304,
+    height: 1728,
+    alt: 'Black-framed uPVC conservatory by The Crosslines',
+  },
+});
 
 export default function ConservatoriesPage() {
   return (
     <main>
+      <JsonLd
+        data={createPageJsonLd({
+          name: pageTitle,
+          description: pageDescription,
+          path: '/conservatories',
+          image: '/images/conservatory.webp',
+          service: {
+            name: 'uPVC Conservatory Design and Installation',
+            serviceType: 'Made-to-measure uPVC conservatories and garden rooms',
+            description: pageDescription,
+          },
+        })}
+      />
       <PageHero
         eyebrow="Conservatories"
         number="04 / 08"

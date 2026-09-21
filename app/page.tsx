@@ -1,3 +1,5 @@
+import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import {
   ArrowDownRight,
@@ -13,10 +15,23 @@ import {
   Wind,
 } from 'lucide-react';
 import { CtaBand } from '@/components/cta-band';
+import { JsonLd } from '@/components/json-ld';
 import { ProfileBrandLogo } from '@/components/profile-brand-logo';
 import { Reveal } from '@/components/reveal';
 import { WarrantyStrip } from '@/components/warranty-strip';
 import { profileTiers } from '@/content/profile-brands';
+import { createMetadata, createPageJsonLd } from '@/lib/seo';
+
+const pageTitle = 'The Crosslines | uPVC Windows & Doors in Multan';
+const pageDescription =
+  'Made-to-measure uPVC windows, doors, double glazing and conservatories manufactured in Multan and installed across Punjab.';
+
+export const metadata: Metadata = createMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: '/',
+  absoluteTitle: true,
+});
 
 const proof = [
   ['6 years', 'Manufacturing and installing'],
@@ -113,6 +128,14 @@ const whyCrosslines = [
 export default function Home() {
   return (
     <main>
+      <JsonLd
+        data={createPageJsonLd({
+          name: pageTitle,
+          description: pageDescription,
+          path: '/',
+          image: '/images/hero-residence.webp',
+        })}
+      />
       <section className="relative h-svh overflow-hidden px-3 pb-3 pt-24 sm:px-5 sm:pb-5 sm:pt-28">
         <div className="relative mx-auto grid h-full min-h-0 max-w-[1560px] overflow-hidden rounded-[1.5rem] bg-ink lg:grid-cols-[0.88fr_1.12fr] lg:rounded-[2rem]">
           <div className="hero-copy-panel relative z-10 min-h-0 overflow-hidden bg-gradient-to-b from-ink/80 via-ink/90 to-ink p-6 text-white sm:p-8 lg:bg-ink lg:p-10 xl:p-12 2xl:p-14">
@@ -158,12 +181,13 @@ export default function Home() {
           </div>
 
           <div className="hero-image absolute inset-0 min-h-0 overflow-hidden lg:relative lg:inset-auto">
-            <img
+            <Image
               src="/images/hero-residence.webp"
               alt="A contemporary residence fitted with black uPVC windows and sliding doors"
-              width="2560"
-              height="1440"
-              className="absolute inset-0 h-full w-full object-cover"
+              fill
+              preload
+              sizes="(min-width: 1024px) 58vw, 100vw"
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/5" />
             <div className="absolute bottom-5 left-5 right-5 flex items-end justify-between rounded-2xl border border-white/25 bg-white/10 p-4 text-white backdrop-blur-md sm:bottom-8 sm:left-8 sm:right-8 sm:p-5">

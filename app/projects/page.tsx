@@ -5,11 +5,15 @@ import { CtaBand } from '@/components/cta-band';
 import { PageHero } from '@/components/page-hero';
 import { Reveal } from '@/components/reveal';
 import { projects } from '@/content/projects';
+import { createMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = createMetadata({
   title: 'Projects',
-  description: 'A growing archive of residential, commercial and builder uPVC projects by The Crosslines across Punjab.',
-};
+  description:
+    'A growing archive of residential, commercial and builder uPVC projects by The Crosslines across Punjab.',
+  path: '/projects',
+  noIndex: true,
+});
 
 export default function ProjectsPage() {
   return (
@@ -17,7 +21,7 @@ export default function ProjectsPage() {
       <PageHero
         eyebrow="Projects"
         number="06 / 08"
-        title="Two thousand projects in six years."
+        title="More than one hundred projects in six years."
         summary="Homes, commercial buildings and builder contracts across Punjab—and supply projects across Pakistan."
         image="/images/hero-residence.webp"
         imageAlt="A contemporary home with extensive black uPVC windows and doors"

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowDownRight, ArrowUpRight } from 'lucide-react';
 
 type PageHeroProps = {
@@ -56,7 +57,14 @@ export function PageHero({
           </div>
 
           <div className="hero-image absolute inset-0 min-h-0 overflow-hidden lg:relative lg:inset-auto">
-            <img src={image} alt={imageAlt} width="2560" height="1440" className="absolute inset-0 h-full w-full object-cover" />
+            <Image
+              src={image}
+              alt={imageAlt}
+              fill
+              preload
+              sizes="(min-width: 1024px) 60vw, 100vw"
+              className="object-cover"
+            />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-black/5" />
           </div>
         </div>

@@ -1,16 +1,31 @@
 import type { Metadata } from 'next';
 import { ArrowUpRight, AtSign, Clock3, Mail, MapPin, Phone } from 'lucide-react';
+import { JsonLd } from '@/components/json-ld';
 import { QuoteForm } from '@/components/quote-form';
 import { Reveal } from '@/components/reveal';
+import { businessDetails, createMetadata, createPageJsonLd } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Contact & Request a Quote',
-  description: 'Request a quote for uPVC windows, doors or conservatories from The Crosslines in Multan.',
-};
+const pageTitle = 'Contact & Request a uPVC Quote';
+const pageDescription =
+  'Contact The Crosslines factory in Multan for uPVC window, door, double-glazing and conservatory quotes across Punjab and Pakistan.';
+
+export const metadata: Metadata = createMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: '/contact',
+});
 
 export default function ContactPage() {
   return (
     <main className="pt-24 sm:pt-28">
+      <JsonLd
+        data={createPageJsonLd({
+          name: pageTitle,
+          description: pageDescription,
+          path: '/contact',
+          type: 'ContactPage',
+        })}
+      />
       <section className="bg-paper px-5 pb-24 pt-16 sm:px-8 sm:pb-32 sm:pt-24">
         <Reveal className="mx-auto max-w-[1480px]">
           <p className="eyebrow">Contact / 08</p>
@@ -42,13 +57,13 @@ export default function ContactPage() {
               <a href="tel:+923008736655" className="group rounded-2xl border border-line p-6 hover:bg-sand"><Phone className="size-6 text-gold-deep" /><p className="mt-12 text-xs uppercase tracking-[0.15em] text-muted">Phone & WhatsApp</p><p className="mt-2 text-xl font-medium">0300 873 6655</p></a>
               <a href="mailto:thecrosslinesgroup28@gmail.com" className="group rounded-2xl border border-line p-6 hover:bg-sand"><Mail className="size-6 text-gold-deep" /><p className="mt-12 text-xs uppercase tracking-[0.15em] text-muted">Email</p><p className="mt-2 break-all text-lg font-medium">thecrosslinesgroup28@gmail.com</p></a>
               <a href="https://www.instagram.com/thecrosslinesfactory/" target="_blank" rel="noreferrer" className="group rounded-2xl border border-line p-6 hover:bg-sand"><AtSign className="size-6 text-gold-deep" /><p className="mt-12 text-xs uppercase tracking-[0.15em] text-muted">Instagram</p><p className="mt-2 flex items-center gap-2 text-lg font-medium">@thecrosslinesfactory <ArrowUpRight className="size-4" /></p></a>
-              <div className="rounded-2xl border border-line p-6"><Clock3 className="size-6 text-gold-deep" /><p className="mt-12 text-xs uppercase tracking-[0.15em] text-muted">Business hours</p><p className="mt-2 text-lg font-medium">Confirm before visiting</p></div>
+              <div className="rounded-2xl border border-line p-6"><Clock3 className="size-6 text-gold-deep" /><p className="mt-12 text-xs uppercase tracking-[0.15em] text-muted">Business hours</p><p className="mt-2 text-lg font-medium">9am–5pm · Closed Friday</p></div>
             </div>
             <div className="overflow-hidden rounded-[1.5rem] border border-line bg-sand lg:rounded-[2rem]">
               <iframe title="The Crosslines location in Multan" src="https://www.google.com/maps?q=Gujjar%20Chowk%2C%20Qadirpur%20Ran%20Bypass%2C%20Multan&output=embed" className="h-[34rem] w-full border-0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
               <div className="flex flex-col justify-between gap-5 border-t border-line bg-paper p-6 sm:flex-row sm:items-center">
                 <div><p className="flex items-center gap-2 font-medium"><MapPin className="size-4 text-gold-deep" /> The Crosslines</p><p className="mt-1 text-sm text-muted">Head Office, Gujjar Chowk, Qadirpur Ran Bypass, Multan</p></div>
-                <a href="https://share.google/h7Ayskc5JrnsqtNBu" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-semibold">Open in Maps <ArrowUpRight className="size-4" /></a>
+                <a href={businessDetails.mapUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-semibold">Open in Maps <ArrowUpRight className="size-4" /></a>
               </div>
             </div>
           </div>

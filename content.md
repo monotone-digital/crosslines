@@ -12,8 +12,9 @@ Source inventory of all marketing and product copy currently live across the rep
 
 | Claim | Copy |
 | --- | --- |
+| Established | 2019 |
 | Experience | 6 years manufacturing and installing |
-| Volume | 500+ projects completed |
+| Volume | 100+ projects completed |
 | Profile warranty | 10 years on the profile |
 | Hardware warranty | 12 months on hardware |
 | Support | Lifetime customer support |
@@ -31,11 +32,12 @@ Source inventory of all marketing and product copy currently live across the rep
 | Phone / WhatsApp | 0300 873 6655 |
 | WhatsApp deep link | https://wa.me/923008736655 |
 | Email | thecrosslinesgroup28@gmail.com |
+| Facebook | https://www.facebook.com/p/The-Crosslines-61570975897869/ |
 | Instagram | https://www.instagram.com/thecrosslinesfactory/ (`@thecrosslinesfactory`) |
 | TikTok | https://www.tiktok.com/@the.crosslines |
 | Address | Head Office, Gujjar Chowk, Qadirpur Ran Bypass, Multan |
-| Maps | https://share.google/h7Ayskc5JrnsqtNBu |
-| Business hours | Confirm before visiting |
+| Maps | https://share.google/ab8KzWjphfcYqemXK |
+| Business hours | 9am–5pm, closed Friday |
 
 ### Default WhatsApp messages
 
@@ -51,14 +53,14 @@ Source inventory of all marketing and product copy currently live across the rep
 
 | Route | Page number | Meta title | Meta description |
 | --- | --- | --- | --- |
-| `/` | — | The Crosslines \| uPVC Windows & Doors in Multan | uPVC windows, doors and conservatories manufactured in Multan and installed across Punjab, with a ten-year profile warranty and lifetime support. |
-| `/windows` | 02 / 08 | uPVC Windows in Multan | Made-to-measure casement, sliding and fixed uPVC windows for homes and building projects across Punjab. |
-| `/doors` | 03 / 08 | uPVC Doors in Multan | Made-to-measure casement, sliding and lift-and-slide uPVC doors manufactured in Multan and installed across Punjab. |
-| `/conservatories` | 04 / 08 | uPVC Conservatories in Multan | Light-filled uPVC conservatories designed around orientation, shade and year-round use in Pakistan. |
-| `/systems` | 05 / 08 | uPVC Profiles & Systems in Multan | Compare five uPVC profile manufacturers across three tiers and learn what to look for in profile construction, seals, reinforcement and colour performance. |
-| `/projects` | 06 / 08 | Projects | A growing archive of residential, commercial and builder uPVC projects by The Crosslines across Punjab. |
-| `/about` | 07 / 08 | About | Meet the Multan manufacturer behind more than 500 uPVC window, door and conservatory projects. |
-| `/contact` | 08 / 08 | Contact & Request a Quote | Request a quote for uPVC windows, doors or conservatories from The Crosslines in Multan. |
+| `/` | — | The Crosslines \| uPVC Windows & Doors in Multan | Made-to-measure uPVC windows, doors, double glazing and conservatories manufactured in Multan and installed across Punjab. |
+| `/windows` | 02 / 08 | uPVC Windows in Multan | Made-to-measure uPVC windows and double glazing for homes and building projects in Multan, Lahore, Bahawalpur, Faisalabad and across Punjab. |
+| `/doors` | 03 / 08 | uPVC Doors in Multan | Made-to-measure casement, sliding and lift-and-slide uPVC doors, manufactured in Multan and installed across Punjab. |
+| `/conservatories` | 04 / 08 | uPVC Conservatories in Multan | Made-to-measure uPVC conservatories and garden rooms designed around orientation, shade and year-round use in Pakistan. |
+| `/systems` | 05 / 08 | uPVC Profiles & Window Systems in Multan | Compare five uPVC profile manufacturers across three tiers, including profile construction, seals, reinforcement, chambers and colour performance. |
+| `/projects` | 06 / 08 | Projects | Temporarily `noindex` until approved project data and photography are added. |
+| `/about` | 07 / 08 | About Our uPVC Factory in Multan | Meet The Crosslines, the Multan manufacturer behind more than 100 projects and a 66,000 sq ft facility dedicated to uPVC. |
+| `/contact` | 08 / 08 | Contact & Request a uPVC Quote | Contact The Crosslines factory in Multan for uPVC window, door, double-glazing and conservatory quotes across Punjab and Pakistan. |
 
 **OG / Twitter:** Made in Multan. Installed across Punjab. Supported for life.  
 **Image:** `/og.webp`
@@ -107,7 +109,7 @@ Source inventory of all marketing and product copy currently live across the rep
 | Value | Label |
 | --- | --- |
 | 6 years | Manufacturing and installing |
-| 500+ | Projects completed |
+| 100+ | Projects completed |
 | 10 years | Warranty on the profile |
 | Lifetime | Customer support |
 
@@ -406,7 +408,7 @@ Source inventory of all marketing and product copy currently live across the rep
 
 ### Hero
 
-- **Title:** Two thousand projects in six years.
+- **Title:** More than one hundred projects in six years.
 - **Summary:** Homes, commercial buildings and builder contracts across Punjab—and supply projects across Pakistan.
 
 ### Selected work
@@ -438,7 +440,7 @@ Source inventory of all marketing and product copy currently live across the rep
 
 - **Eyebrow:** The Crosslines
 - **H2:** Built around one material.
-- The Crosslines has spent six years manufacturing in Multan and completed more than 500 projects for homeowners, builders and architects.
+- Established in 2019, The Crosslines has spent six years manufacturing in Multan and completed more than 100 projects for homeowners, builders and architects.
 - Our focus on uPVC means we understand the profiles we carry, can match the system to the building and will say when the less expensive option is the right one.
 - Across Punjab, we install what we manufacture. One company remains accountable for the frame, glass, hardware and fitting—from quotation to aftercare.
 

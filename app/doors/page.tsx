@@ -9,16 +9,28 @@ import {
   ShieldCheck,
 } from 'lucide-react';
 import { CtaBand } from '@/components/cta-band';
+import { JsonLd } from '@/components/json-ld';
 import { PageHero } from '@/components/page-hero';
 import { ProfileTierStrip } from '@/components/profile-tier-strip';
 import { Reveal } from '@/components/reveal';
 import { WarrantyStrip } from '@/components/warranty-strip';
+import { createMetadata, createPageJsonLd } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'uPVC Doors in Multan',
-  description:
-    'Made-to-measure uPVC doors with recommended 6–10–6 double glazing, manufactured in Multan and installed across Punjab.',
-};
+const pageTitle = 'uPVC Doors in Multan';
+const pageDescription =
+  'Made-to-measure casement, sliding and lift-and-slide uPVC doors, manufactured in Multan and installed across Punjab.';
+
+export const metadata: Metadata = createMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: '/doors',
+  image: {
+    url: '/images/doors-lift-slide.webp',
+    width: 2560,
+    height: 1440,
+    alt: 'Large black lift-and-slide uPVC doors by The Crosslines',
+  },
+});
 
 const doorTypes = [
   {
@@ -64,6 +76,19 @@ const doorTypes = [
 export default function DoorsPage() {
   return (
     <main>
+      <JsonLd
+        data={createPageJsonLd({
+          name: pageTitle,
+          description: pageDescription,
+          path: '/doors',
+          image: '/images/doors-lift-slide.webp',
+          service: {
+            name: 'uPVC Door Manufacturing and Installation',
+            serviceType: 'Made-to-measure uPVC doors',
+            description: pageDescription,
+          },
+        })}
+      />
       <PageHero
         eyebrow="Doors"
         number="03 / 08"

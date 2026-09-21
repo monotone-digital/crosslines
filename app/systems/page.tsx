@@ -9,17 +9,29 @@ import {
   Wind,
 } from 'lucide-react';
 import { CtaBand } from '@/components/cta-band';
+import { JsonLd } from '@/components/json-ld';
 import { PageHero } from '@/components/page-hero';
 import { ProfileBrandLogo } from '@/components/profile-brand-logo';
 import { Reveal } from '@/components/reveal';
 import { WarrantyStrip } from '@/components/warranty-strip';
 import { profileTiers } from '@/content/profile-brands';
+import { createMetadata, createPageJsonLd } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'uPVC Profiles & Systems in Multan',
-  description:
-    'Compare five uPVC profile manufacturers across three tiers and learn what to look for in profile construction, seals, reinforcement and colour performance.',
-};
+const pageTitle = 'uPVC Profiles & Window Systems in Multan';
+const pageDescription =
+  'Compare five uPVC profile manufacturers across three tiers, including profile construction, seals, reinforcement, chambers and colour performance.';
+
+export const metadata: Metadata = createMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: '/systems',
+  image: {
+    url: '/images/profile-tiers.webp',
+    width: 2304,
+    height: 1728,
+    alt: 'uPVC profile systems available from The Crosslines',
+  },
+});
 
 const qualities = [
   [
@@ -57,6 +69,21 @@ const qualities = [
 export default function SystemsPage() {
   return (
     <main>
+      <JsonLd
+        data={createPageJsonLd({
+          name: pageTitle,
+          description: pageDescription,
+          path: '/systems',
+          type: 'CollectionPage',
+          image: '/images/profile-tiers.webp',
+          service: {
+            name: 'uPVC Profile System Specification and Supply',
+            serviceType: 'uPVC window and door profile system consultation',
+            description: pageDescription,
+            installationArea: 'Pakistan',
+          },
+        })}
+      />
       <PageHero
         eyebrow="Profiles & Systems"
         number="05 / 08"
