@@ -26,7 +26,7 @@ const sections = [
   {
     title: 'Service providers',
     body: [
-      'The website is hosted on Vercel. Quote-form messages are processed through Resend and delivered to our business email. If configured, Google Analytics, Google Ads and Meta Pixel may process consented usage information under their own privacy terms.',
+      'The website is hosted on Vercel. Quote-form messages are emailed to our business Gmail inbox. If configured, Google Analytics, Google Ads and Meta Pixel may process consented usage information under their own privacy terms.',
       'We do not sell personal information. We share it only with service providers needed to operate the website and respond to enquiries, or when required by law.',
     ],
   },
