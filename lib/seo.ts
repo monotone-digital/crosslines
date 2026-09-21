@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const SITE_NAME = 'The Crosslines';
-export const SITE_URL = 'https://thecrosslinesgroup.com';
+export const SITE_URL = 'https://www.thecrosslinesgroup.com';
 export const SITE_DESCRIPTION =
   'uPVC windows, doors and conservatories manufactured in Multan and installed across Punjab, with a ten-year profile warranty and lifetime support.';
 
