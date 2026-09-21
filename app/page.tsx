@@ -20,7 +20,7 @@ import { profileTiers } from '@/content/profile-brands';
 
 const proof = [
   ['6 years', 'Manufacturing and installing'],
-  ['500+', 'Projects completed'],
+  ['100+', 'Projects completed'],
   ['10 years', 'Warranty on the profile'],
   ['Lifetime', 'Customer support'],
 ];
@@ -123,7 +123,7 @@ export default function Home() {
 
             <div className="hero-content">
               <p className="reveal-up mb-4 font-serif text-xl italic text-gold sm:mb-5 sm:text-2xl">
-                Made and fitted by us.
+                Manufactured and installed by us.
               </p>
               <h1 className="hero-title reveal-up reveal-delay-1 max-w-4xl text-balance font-medium leading-[0.87] tracking-[-0.065em]">
                 uPVC windows, doors and conservatories.
